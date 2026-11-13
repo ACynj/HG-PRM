@@ -1,0 +1,16 @@
+# core
+networkx>=3.1
+numpy
+pandas
+tqdm
+openai>=1.30,<2
+matplotlib>=3.8
+# HGNN training (CPU sufficient)
+torch>=2.1
+# DPO training (single GPU)
+transformers>=4.49
+trl>=1.14
+peft>=0.21
+accelerate
+datasets
+sentencepiece

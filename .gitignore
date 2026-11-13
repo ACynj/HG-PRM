@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/
+ckpt_*/
+llm_cache/
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+page-*.png
+paper/
+paper_tois/
+exp/outputs/table_*.tex

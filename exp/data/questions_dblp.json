@@ -1,0 +1,6925 @@
+{
+ "source": "DBLP-1 (Jhy1993/Datasets-for-Heterogeneous-Graph, HAN line)",
+ "schema": [
+  [
+   "Author",
+   "writes",
+   "Paper"
+  ],
+  [
+   "Conference",
+   "publishes",
+   "Paper"
+  ],
+  [
+   "Paper",
+   "has_term",
+   "Term"
+  ],
+  [
+   "Paper",
+   "published_in",
+   "Conference"
+  ],
+  [
+   "Paper",
+   "written_by",
+   "Author"
+  ],
+  [
+   "Term",
+   "term_of",
+   "Paper"
+  ]
+ ],
+ "n_entities": 37791,
+ "questions": [
+  {
+   "qid": "dblp-h2-000",
+   "hop": 2,
+   "start": "Author#9812",
+   "start_id": 1009812,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#9812",
+     "writes",
+     "Paper#7320"
+    ],
+    [
+     "Paper#7320",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-001",
+   "hop": 2,
+   "start": "Author#11789",
+   "start_id": 1011789,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#11789",
+     "writes",
+     "Paper#13029"
+    ],
+    [
+     "Paper#13029",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-002",
+   "hop": 2,
+   "start": "Author#10064",
+   "start_id": 1010064,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#10064",
+     "writes",
+     "Paper#11917"
+    ],
+    [
+     "Paper#11917",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-003",
+   "hop": 2,
+   "start": "Author#9803",
+   "start_id": 1009803,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#9803",
+     "writes",
+     "Paper#6411"
+    ],
+    [
+     "Paper#6411",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-004",
+   "hop": 2,
+   "start": "Author#10842",
+   "start_id": 1010842,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#10842",
+     "writes",
+     "Paper#6478"
+    ],
+    [
+     "Paper#6478",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-005",
+   "hop": 2,
+   "start": "Author#12249",
+   "start_id": 1012249,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12249",
+     "writes",
+     "Paper#6541"
+    ],
+    [
+     "Paper#6541",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-006",
+   "hop": 2,
+   "start": "Author#4222",
+   "start_id": 1004222,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#4222",
+     "writes",
+     "Paper#11534"
+    ],
+    [
+     "Paper#11534",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-007",
+   "hop": 2,
+   "start": "Author#4115",
+   "start_id": 1004115,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#4115",
+     "writes",
+     "Paper#11086"
+    ],
+    [
+     "Paper#11086",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-008",
+   "hop": 2,
+   "start": "Author#10916",
+   "start_id": 1010916,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#10916",
+     "writes",
+     "Paper#11305"
+    ],
+    [
+     "Paper#11305",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-009",
+   "hop": 2,
+   "start": "Author#10283",
+   "start_id": 1010283,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#10283",
+     "writes",
+     "Paper#6548"
+    ],
+    [
+     "Paper#6548",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-010",
+   "hop": 2,
+   "start": "Author#12959",
+   "start_id": 1012959,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12959",
+     "writes",
+     "Paper#13594"
+    ],
+    [
+     "Paper#13594",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-011",
+   "hop": 2,
+   "start": "Author#12698",
+   "start_id": 1012698,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#11",
+   "answer_id": 2000011,
+   "answer_ids": [
+    2000011
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12698",
+     "writes",
+     "Paper#7926"
+    ],
+    [
+     "Paper#7926",
+     "published_in",
+     "Conf#11"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-012",
+   "hop": 2,
+   "start": "Author#4149",
+   "start_id": 1004149,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002,
+    2000004
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#4149",
+     "writes",
+     "Paper#2262"
+    ],
+    [
+     "Paper#2262",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-013",
+   "hop": 2,
+   "start": "Author#2248",
+   "start_id": 1002248,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#2248",
+     "writes",
+     "Paper#13936"
+    ],
+    [
+     "Paper#13936",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-014",
+   "hop": 2,
+   "start": "Author#9716",
+   "start_id": 1009716,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#11",
+   "answer_id": 2000011,
+   "answer_ids": [
+    2000011
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#9716",
+     "writes",
+     "Paper#7815"
+    ],
+    [
+     "Paper#7815",
+     "published_in",
+     "Conf#11"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-015",
+   "hop": 2,
+   "start": "Author#6768",
+   "start_id": 1006768,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#6768",
+     "writes",
+     "Paper#12884"
+    ],
+    [
+     "Paper#12884",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-016",
+   "hop": 2,
+   "start": "Author#3253",
+   "start_id": 1003253,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000009
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#3253",
+     "writes",
+     "Paper#1231"
+    ],
+    [
+     "Paper#1231",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-017",
+   "hop": 2,
+   "start": "Author#2173",
+   "start_id": 1002173,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#2173",
+     "writes",
+     "Paper#509"
+    ],
+    [
+     "Paper#509",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-018",
+   "hop": 2,
+   "start": "Author#11412",
+   "start_id": 1011412,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#7",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#11412",
+     "writes",
+     "Paper#4489"
+    ],
+    [
+     "Paper#4489",
+     "published_in",
+     "Conf#7"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-019",
+   "hop": 2,
+   "start": "Author#14027",
+   "start_id": 1014027,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#14027",
+     "writes",
+     "Paper#12459"
+    ],
+    [
+     "Paper#12459",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-020",
+   "hop": 2,
+   "start": "Author#13034",
+   "start_id": 1013034,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#12",
+   "answer_id": 2000012,
+   "answer_ids": [
+    2000012
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#13034",
+     "writes",
+     "Paper#8760"
+    ],
+    [
+     "Paper#8760",
+     "published_in",
+     "Conf#12"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-021",
+   "hop": 2,
+   "start": "Author#971",
+   "start_id": 1000971,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#7",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#971",
+     "writes",
+     "Paper#4614"
+    ],
+    [
+     "Paper#4614",
+     "published_in",
+     "Conf#7"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-022",
+   "hop": 2,
+   "start": "Author#12382",
+   "start_id": 1012382,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12382",
+     "writes",
+     "Paper#7253"
+    ],
+    [
+     "Paper#7253",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-023",
+   "hop": 2,
+   "start": "Author#8766",
+   "start_id": 1008766,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#6",
+   "answer_id": 2000006,
+   "answer_ids": [
+    2000006
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#8766",
+     "writes",
+     "Paper#3159"
+    ],
+    [
+     "Paper#3159",
+     "published_in",
+     "Conf#6"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-024",
+   "hop": 2,
+   "start": "Author#9823",
+   "start_id": 1009823,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#5",
+   "answer_id": 2000005,
+   "answer_ids": [
+    2000005
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#9823",
+     "writes",
+     "Paper#2904"
+    ],
+    [
+     "Paper#2904",
+     "published_in",
+     "Conf#5"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-025",
+   "hop": 2,
+   "start": "Author#13364",
+   "start_id": 1013364,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#13364",
+     "writes",
+     "Paper#10195"
+    ],
+    [
+     "Paper#10195",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-026",
+   "hop": 2,
+   "start": "Author#12725",
+   "start_id": 1012725,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#11",
+   "answer_id": 2000011,
+   "answer_ids": [
+    2000011
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12725",
+     "writes",
+     "Paper#7993"
+    ],
+    [
+     "Paper#7993",
+     "published_in",
+     "Conf#11"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-027",
+   "hop": 2,
+   "start": "Author#13299",
+   "start_id": 1013299,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#13299",
+     "writes",
+     "Paper#9998"
+    ],
+    [
+     "Paper#9998",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-028",
+   "hop": 2,
+   "start": "Author#3564",
+   "start_id": 1003564,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#3564",
+     "writes",
+     "Paper#1427"
+    ],
+    [
+     "Paper#1427",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h2-029",
+   "hop": 2,
+   "start": "Author#12849",
+   "start_id": 1012849,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#11",
+   "answer_id": 2000011,
+   "answer_ids": [
+    2000011
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12849",
+     "writes",
+     "Paper#8378"
+    ],
+    [
+     "Paper#8378",
+     "published_in",
+     "Conf#11"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h3-000",
+   "hop": 3,
+   "start": "Paper#2329",
+   "start_id": 2329,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#3",
+   "answer_id": 2000003,
+   "answer_ids": [
+    2000003,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#2329",
+     "written_by",
+     "Author#76"
+    ],
+    [
+     "Author#76",
+     "writes",
+     "Paper#2326"
+    ],
+    [
+     "Paper#2326",
+     "published_in",
+     "Conf#3"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 4.0,
+   "distract_max": 9,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-001",
+   "hop": 3,
+   "start": "Paper#1947",
+   "start_id": 1947,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002,
+    2000016,
+    2000018
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#1947",
+     "written_by",
+     "Author#5073"
+    ],
+    [
+     "Author#5073",
+     "writes",
+     "Paper#1947"
+    ],
+    [
+     "Paper#1947",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-002",
+   "hop": 3,
+   "start": "Paper#8258",
+   "start_id": 8258,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002,
+    2000011
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#8258",
+     "written_by",
+     "Author#359"
+    ],
+    [
+     "Author#359",
+     "writes",
+     "Paper#2177"
+    ],
+    [
+     "Paper#2177",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-003",
+   "hop": 3,
+   "start": "Paper#3520",
+   "start_id": 3520,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#7",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007,
+    2000017,
+    2000018
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#3520",
+     "written_by",
+     "Author#335"
+    ],
+    [
+     "Author#335",
+     "writes",
+     "Paper#3520"
+    ],
+    [
+     "Paper#3520",
+     "published_in",
+     "Conf#7"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-004",
+   "hop": 3,
+   "start": "Paper#70",
+   "start_id": 70,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000009,
+    2000010
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#70",
+     "written_by",
+     "Author#219"
+    ],
+    [
+     "Author#219",
+     "writes",
+     "Paper#70"
+    ],
+    [
+     "Paper#70",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-005",
+   "hop": 3,
+   "start": "Paper#13279",
+   "start_id": 13279,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#7",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007,
+    2000017,
+    2000018
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13279",
+     "written_by",
+     "Author#188"
+    ],
+    [
+     "Author#188",
+     "writes",
+     "Paper#3568"
+    ],
+    [
+     "Paper#3568",
+     "published_in",
+     "Conf#7"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 5.0,
+   "distract_max": 12,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-006",
+   "hop": 3,
+   "start": "Paper#8778",
+   "start_id": 8778,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#12",
+   "answer_id": 2000012,
+   "answer_ids": [
+    2000012
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#8778",
+     "written_by",
+     "Author#6281"
+    ],
+    [
+     "Author#6281",
+     "writes",
+     "Paper#8752"
+    ],
+    [
+     "Paper#8752",
+     "published_in",
+     "Conf#12"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-007",
+   "hop": 3,
+   "start": "Paper#8827",
+   "start_id": 8827,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010,
+    2000013,
+    2000016
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#8827",
+     "written_by",
+     "Author#5220"
+    ],
+    [
+     "Author#5220",
+     "writes",
+     "Paper#7001"
+    ],
+    [
+     "Paper#7001",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.3333333333333335,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-008",
+   "hop": 3,
+   "start": "Paper#6191",
+   "start_id": 6191,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#6191",
+     "written_by",
+     "Author#1551"
+    ],
+    [
+     "Author#1551",
+     "writes",
+     "Paper#740"
+    ],
+    [
+     "Paper#740",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 4.666666666666667,
+   "distract_max": 11,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-009",
+   "hop": 3,
+   "start": "Paper#3279",
+   "start_id": 3279,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#7",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007,
+    2000017,
+    2000018
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#3279",
+     "written_by",
+     "Author#3809"
+    ],
+    [
+     "Author#3809",
+     "writes",
+     "Paper#3279"
+    ],
+    [
+     "Paper#3279",
+     "published_in",
+     "Conf#7"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 3.0,
+   "distract_max": 5,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-010",
+   "hop": 3,
+   "start": "Paper#6178",
+   "start_id": 6178,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#6178",
+     "written_by",
+     "Author#5499"
+    ],
+    [
+     "Author#5499",
+     "writes",
+     "Paper#6178"
+    ],
+    [
+     "Paper#6178",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-011",
+   "hop": 3,
+   "start": "Paper#11917",
+   "start_id": 11917,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#11917",
+     "written_by",
+     "Author#10064"
+    ],
+    [
+     "Author#10064",
+     "writes",
+     "Paper#11917"
+    ],
+    [
+     "Paper#11917",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-012",
+   "hop": 3,
+   "start": "Paper#12225",
+   "start_id": 12225,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#12225",
+     "written_by",
+     "Author#13970"
+    ],
+    [
+     "Author#13970",
+     "writes",
+     "Paper#12225"
+    ],
+    [
+     "Paper#12225",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-013",
+   "hop": 3,
+   "start": "Paper#11981",
+   "start_id": 11981,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#7",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007,
+    2000017,
+    2000018
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#11981",
+     "written_by",
+     "Author#188"
+    ],
+    [
+     "Author#188",
+     "writes",
+     "Paper#3568"
+    ],
+    [
+     "Paper#3568",
+     "published_in",
+     "Conf#7"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 5.0,
+   "distract_max": 12,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-014",
+   "hop": 3,
+   "start": "Paper#5678",
+   "start_id": 5678,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#9",
+   "answer_id": 2000009,
+   "answer_ids": [
+    2000009,
+    2000011
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#5678",
+     "written_by",
+     "Author#3726"
+    ],
+    [
+     "Author#3726",
+     "writes",
+     "Paper#5678"
+    ],
+    [
+     "Paper#5678",
+     "published_in",
+     "Conf#9"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-015",
+   "hop": 3,
+   "start": "Paper#7882",
+   "start_id": 7882,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#8",
+   "answer_id": 2000008,
+   "answer_ids": [
+    2000008,
+    2000011,
+    2000014
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#7882",
+     "written_by",
+     "Author#2083"
+    ],
+    [
+     "Author#2083",
+     "writes",
+     "Paper#4751"
+    ],
+    [
+     "Paper#4751",
+     "published_in",
+     "Conf#8"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-016",
+   "hop": 3,
+   "start": "Paper#7580",
+   "start_id": 7580,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#7580",
+     "written_by",
+     "Author#3322"
+    ],
+    [
+     "Author#3322",
+     "writes",
+     "Paper#1269"
+    ],
+    [
+     "Paper#1269",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-017",
+   "hop": 3,
+   "start": "Paper#8603",
+   "start_id": 8603,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#11",
+   "answer_id": 2000011,
+   "answer_ids": [
+    2000011,
+    2000012
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#8603",
+     "written_by",
+     "Author#97"
+    ],
+    [
+     "Author#97",
+     "writes",
+     "Paper#8006"
+    ],
+    [
+     "Paper#8006",
+     "published_in",
+     "Conf#11"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-018",
+   "hop": 3,
+   "start": "Paper#9939",
+   "start_id": 9939,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#9939",
+     "written_by",
+     "Author#9113"
+    ],
+    [
+     "Author#9113",
+     "writes",
+     "Paper#9937"
+    ],
+    [
+     "Paper#9937",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-019",
+   "hop": 3,
+   "start": "Paper#2379",
+   "start_id": 2379,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#3",
+   "answer_id": 2000003,
+   "answer_ids": [
+    2000003,
+    2000009,
+    2000010
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#2379",
+     "written_by",
+     "Author#4"
+    ],
+    [
+     "Author#4",
+     "writes",
+     "Paper#2378"
+    ],
+    [
+     "Paper#2378",
+     "published_in",
+     "Conf#3"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 4.333333333333333,
+   "distract_max": 10,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-020",
+   "hop": 3,
+   "start": "Paper#5929",
+   "start_id": 5929,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#5929",
+     "written_by",
+     "Author#1406"
+    ],
+    [
+     "Author#1406",
+     "writes",
+     "Paper#5929"
+    ],
+    [
+     "Paper#5929",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-021",
+   "hop": 3,
+   "start": "Paper#712",
+   "start_id": 712,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#712",
+     "written_by",
+     "Author#294"
+    ],
+    [
+     "Author#294",
+     "writes",
+     "Paper#123"
+    ],
+    [
+     "Paper#123",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 11.666666666666666,
+   "distract_max": 32,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-022",
+   "hop": 3,
+   "start": "Paper#3070",
+   "start_id": 3070,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#6",
+   "answer_id": 2000006,
+   "answer_ids": [
+    2000006,
+    2000014,
+    2000017
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#3070",
+     "written_by",
+     "Author#10149"
+    ],
+    [
+     "Author#10149",
+     "writes",
+     "Paper#3070"
+    ],
+    [
+     "Paper#3070",
+     "published_in",
+     "Conf#6"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 3.3333333333333335,
+   "distract_max": 6,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-023",
+   "hop": 3,
+   "start": "Paper#6061",
+   "start_id": 6061,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#6061",
+     "written_by",
+     "Author#5721"
+    ],
+    [
+     "Author#5721",
+     "writes",
+     "Paper#6061"
+    ],
+    [
+     "Paper#6061",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-024",
+   "hop": 3,
+   "start": "Paper#3321",
+   "start_id": 3321,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#7",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007,
+    2000017,
+    2000018
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#3321",
+     "written_by",
+     "Author#6970"
+    ],
+    [
+     "Author#6970",
+     "writes",
+     "Paper#3319"
+    ],
+    [
+     "Paper#3319",
+     "published_in",
+     "Conf#7"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 4.666666666666667,
+   "distract_max": 10,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-025",
+   "hop": 3,
+   "start": "Paper#10491",
+   "start_id": 10491,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#10491",
+     "written_by",
+     "Author#8565"
+    ],
+    [
+     "Author#8565",
+     "writes",
+     "Paper#10491"
+    ],
+    [
+     "Paper#10491",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-026",
+   "hop": 3,
+   "start": "Paper#6500",
+   "start_id": 6500,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#6500",
+     "written_by",
+     "Author#1893"
+    ],
+    [
+     "Author#1893",
+     "writes",
+     "Paper#1418"
+    ],
+    [
+     "Paper#1418",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.3333333333333335,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-027",
+   "hop": 3,
+   "start": "Paper#2389",
+   "start_id": 2389,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#3",
+   "answer_id": 2000003,
+   "answer_ids": [
+    2000003,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#2389",
+     "written_by",
+     "Author#76"
+    ],
+    [
+     "Author#76",
+     "writes",
+     "Paper#2326"
+    ],
+    [
+     "Paper#2326",
+     "published_in",
+     "Conf#3"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 4.0,
+   "distract_max": 9,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-028",
+   "hop": 3,
+   "start": "Paper#13825",
+   "start_id": 13825,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017,
+    2000018
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13825",
+     "written_by",
+     "Author#4534"
+    ],
+    [
+     "Author#4534",
+     "writes",
+     "Paper#11577"
+    ],
+    [
+     "Paper#11577",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.6666666666666665,
+   "distract_max": 4,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h3-029",
+   "hop": 3,
+   "start": "Paper#12225",
+   "start_id": 12225,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#12225",
+     "written_by",
+     "Author#13970"
+    ],
+    [
+     "Author#13970",
+     "writes",
+     "Paper#12225"
+    ],
+    [
+     "Paper#12225",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "dblp-h4-000",
+   "hop": 4,
+   "start": "Author#3089",
+   "start_id": 1003089,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000002,
+    2000016
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#3089",
+     "writes",
+     "Paper#1100"
+    ],
+    [
+     "Paper#1100",
+     "written_by",
+     "Author#3020"
+    ],
+    [
+     "Author#3020",
+     "writes",
+     "Paper#1100"
+    ],
+    [
+     "Paper#1100",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 4,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-001",
+   "hop": 4,
+   "start": "Author#2164",
+   "start_id": 1002164,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#2164",
+     "writes",
+     "Paper#504"
+    ],
+    [
+     "Paper#504",
+     "written_by",
+     "Author#2164"
+    ],
+    [
+     "Author#2164",
+     "writes",
+     "Paper#504"
+    ],
+    [
+     "Paper#504",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-002",
+   "hop": 4,
+   "start": "Author#9821",
+   "start_id": 1009821,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#9821",
+     "writes",
+     "Paper#6905"
+    ],
+    [
+     "Paper#6905",
+     "written_by",
+     "Author#9821"
+    ],
+    [
+     "Author#9821",
+     "writes",
+     "Paper#6905"
+    ],
+    [
+     "Paper#6905",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-003",
+   "hop": 4,
+   "start": "Author#3969",
+   "start_id": 1003969,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016,
+    2000018
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#3969",
+     "writes",
+     "Paper#13535"
+    ],
+    [
+     "Paper#13535",
+     "written_by",
+     "Author#4268"
+    ],
+    [
+     "Author#4268",
+     "writes",
+     "Paper#10501"
+    ],
+    [
+     "Paper#10501",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.75,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-004",
+   "hop": 4,
+   "start": "Author#3558",
+   "start_id": 1003558,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#3558",
+     "writes",
+     "Paper#1425"
+    ],
+    [
+     "Paper#1425",
+     "written_by",
+     "Author#3558"
+    ],
+    [
+     "Author#3558",
+     "writes",
+     "Paper#1425"
+    ],
+    [
+     "Paper#1425",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-005",
+   "hop": 4,
+   "start": "Author#3571",
+   "start_id": 1003571,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#3571",
+     "writes",
+     "Paper#1432"
+    ],
+    [
+     "Paper#1432",
+     "written_by",
+     "Author#3571"
+    ],
+    [
+     "Author#3571",
+     "writes",
+     "Paper#1432"
+    ],
+    [
+     "Paper#1432",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-006",
+   "hop": 4,
+   "start": "Author#3023",
+   "start_id": 1003023,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#3023",
+     "writes",
+     "Paper#1041"
+    ],
+    [
+     "Paper#1041",
+     "written_by",
+     "Author#1038"
+    ],
+    [
+     "Author#1038",
+     "writes",
+     "Paper#33"
+    ],
+    [
+     "Paper#33",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 4,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-007",
+   "hop": 4,
+   "start": "Author#8376",
+   "start_id": 1008376,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#8376",
+     "writes",
+     "Paper#12010"
+    ],
+    [
+     "Paper#12010",
+     "written_by",
+     "Author#8376"
+    ],
+    [
+     "Author#8376",
+     "writes",
+     "Paper#12010"
+    ],
+    [
+     "Paper#12010",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-008",
+   "hop": 4,
+   "start": "Author#9112",
+   "start_id": 1009112,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#9112",
+     "writes",
+     "Paper#7229"
+    ],
+    [
+     "Paper#7229",
+     "written_by",
+     "Author#9112"
+    ],
+    [
+     "Author#9112",
+     "writes",
+     "Paper#7229"
+    ],
+    [
+     "Paper#7229",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-009",
+   "hop": 4,
+   "start": "Author#10",
+   "start_id": 1000010,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#10",
+     "writes",
+     "Paper#1415"
+    ],
+    [
+     "Paper#1415",
+     "written_by",
+     "Author#10"
+    ],
+    [
+     "Author#10",
+     "writes",
+     "Paper#1415"
+    ],
+    [
+     "Paper#1415",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.75,
+   "distract_max": 8,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-010",
+   "hop": 4,
+   "start": "Author#13976",
+   "start_id": 1013976,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#13976",
+     "writes",
+     "Paper#12238"
+    ],
+    [
+     "Paper#12238",
+     "written_by",
+     "Author#13976"
+    ],
+    [
+     "Author#13976",
+     "writes",
+     "Paper#12238"
+    ],
+    [
+     "Paper#12238",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-011",
+   "hop": 4,
+   "start": "Author#915",
+   "start_id": 1000915,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#915",
+     "writes",
+     "Paper#1"
+    ],
+    [
+     "Paper#1",
+     "written_by",
+     "Author#915"
+    ],
+    [
+     "Author#915",
+     "writes",
+     "Paper#1"
+    ],
+    [
+     "Paper#1",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-012",
+   "hop": 4,
+   "start": "Author#8535",
+   "start_id": 1008535,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#8535",
+     "writes",
+     "Paper#6265"
+    ],
+    [
+     "Paper#6265",
+     "written_by",
+     "Author#8535"
+    ],
+    [
+     "Author#8535",
+     "writes",
+     "Paper#6265"
+    ],
+    [
+     "Paper#6265",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-013",
+   "hop": 4,
+   "start": "Author#2164",
+   "start_id": 1002164,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#2164",
+     "writes",
+     "Paper#504"
+    ],
+    [
+     "Paper#504",
+     "written_by",
+     "Author#2164"
+    ],
+    [
+     "Author#2164",
+     "writes",
+     "Paper#504"
+    ],
+    [
+     "Paper#504",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-014",
+   "hop": 4,
+   "start": "Author#2871",
+   "start_id": 1002871,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#2871",
+     "writes",
+     "Paper#930"
+    ],
+    [
+     "Paper#930",
+     "written_by",
+     "Author#2871"
+    ],
+    [
+     "Author#2871",
+     "writes",
+     "Paper#930"
+    ],
+    [
+     "Paper#930",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-015",
+   "hop": 4,
+   "start": "Author#4793",
+   "start_id": 1004793,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#4793",
+     "writes",
+     "Paper#11613"
+    ],
+    [
+     "Paper#11613",
+     "written_by",
+     "Author#4793"
+    ],
+    [
+     "Author#4793",
+     "writes",
+     "Paper#11613"
+    ],
+    [
+     "Paper#11613",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-016",
+   "hop": 4,
+   "start": "Author#12236",
+   "start_id": 1012236,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12236",
+     "writes",
+     "Paper#6456"
+    ],
+    [
+     "Paper#6456",
+     "written_by",
+     "Author#12236"
+    ],
+    [
+     "Author#12236",
+     "writes",
+     "Paper#6456"
+    ],
+    [
+     "Paper#6456",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-017",
+   "hop": 4,
+   "start": "Author#5720",
+   "start_id": 1005720,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#5720",
+     "writes",
+     "Paper#10138"
+    ],
+    [
+     "Paper#10138",
+     "written_by",
+     "Author#5720"
+    ],
+    [
+     "Author#5720",
+     "writes",
+     "Paper#10138"
+    ],
+    [
+     "Paper#10138",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-018",
+   "hop": 4,
+   "start": "Author#1938",
+   "start_id": 1001938,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#1938",
+     "writes",
+     "Paper#781"
+    ],
+    [
+     "Paper#781",
+     "written_by",
+     "Author#1938"
+    ],
+    [
+     "Author#1938",
+     "writes",
+     "Paper#781"
+    ],
+    [
+     "Paper#781",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-019",
+   "hop": 4,
+   "start": "Author#12165",
+   "start_id": 1012165,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12165",
+     "writes",
+     "Paper#6070"
+    ],
+    [
+     "Paper#6070",
+     "written_by",
+     "Author#12165"
+    ],
+    [
+     "Author#12165",
+     "writes",
+     "Paper#6070"
+    ],
+    [
+     "Paper#6070",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-020",
+   "hop": 4,
+   "start": "Author#723",
+   "start_id": 1000723,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#723",
+     "writes",
+     "Paper#13984"
+    ],
+    [
+     "Paper#13984",
+     "written_by",
+     "Author#723"
+    ],
+    [
+     "Author#723",
+     "writes",
+     "Paper#13984"
+    ],
+    [
+     "Paper#13984",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-021",
+   "hop": 4,
+   "start": "Author#7734",
+   "start_id": 1007734,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002,
+    2000016
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#7734",
+     "writes",
+     "Paper#1700"
+    ],
+    [
+     "Paper#1700",
+     "written_by",
+     "Author#7734"
+    ],
+    [
+     "Author#7734",
+     "writes",
+     "Paper#1700"
+    ],
+    [
+     "Paper#1700",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-022",
+   "hop": 4,
+   "start": "Author#2746",
+   "start_id": 1002746,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#2746",
+     "writes",
+     "Paper#845"
+    ],
+    [
+     "Paper#845",
+     "written_by",
+     "Author#2746"
+    ],
+    [
+     "Author#2746",
+     "writes",
+     "Paper#845"
+    ],
+    [
+     "Paper#845",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-023",
+   "hop": 4,
+   "start": "Author#4079",
+   "start_id": 1004079,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#8",
+   "answer_id": 2000008,
+   "answer_ids": [
+    2000008,
+    2000015
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#4079",
+     "writes",
+     "Paper#4947"
+    ],
+    [
+     "Paper#4947",
+     "written_by",
+     "Author#4079"
+    ],
+    [
+     "Author#4079",
+     "writes",
+     "Paper#4947"
+    ],
+    [
+     "Paper#4947",
+     "published_in",
+     "Conf#8"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.75,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-024",
+   "hop": 4,
+   "start": "Author#6063",
+   "start_id": 1006063,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#6063",
+     "writes",
+     "Paper#6729"
+    ],
+    [
+     "Paper#6729",
+     "written_by",
+     "Author#6063"
+    ],
+    [
+     "Author#6063",
+     "writes",
+     "Paper#6729"
+    ],
+    [
+     "Paper#6729",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-025",
+   "hop": 4,
+   "start": "Author#3571",
+   "start_id": 1003571,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#3571",
+     "writes",
+     "Paper#1432"
+    ],
+    [
+     "Paper#1432",
+     "written_by",
+     "Author#3571"
+    ],
+    [
+     "Author#3571",
+     "writes",
+     "Paper#1432"
+    ],
+    [
+     "Paper#1432",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-026",
+   "hop": 4,
+   "start": "Author#12307",
+   "start_id": 1012307,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12307",
+     "writes",
+     "Paper#6869"
+    ],
+    [
+     "Paper#6869",
+     "written_by",
+     "Author#12307"
+    ],
+    [
+     "Author#12307",
+     "writes",
+     "Paper#6869"
+    ],
+    [
+     "Paper#6869",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-027",
+   "hop": 4,
+   "start": "Author#8477",
+   "start_id": 1008477,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#17",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#8477",
+     "writes",
+     "Paper#12155"
+    ],
+    [
+     "Paper#12155",
+     "written_by",
+     "Author#8477"
+    ],
+    [
+     "Author#8477",
+     "writes",
+     "Paper#12155"
+    ],
+    [
+     "Paper#12155",
+     "published_in",
+     "Conf#17"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-028",
+   "hop": 4,
+   "start": "Author#12519",
+   "start_id": 1012519,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002,
+    2000012,
+    2000016
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#12519",
+     "writes",
+     "Paper#10925"
+    ],
+    [
+     "Paper#10925",
+     "written_by",
+     "Author#8061"
+    ],
+    [
+     "Author#8061",
+     "writes",
+     "Paper#2023"
+    ],
+    [
+     "Paper#2023",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.5,
+   "distract_max": 5,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h4-029",
+   "hop": 4,
+   "start": "Author#1414",
+   "start_id": 1001414,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Author#1414",
+     "writes",
+     "Paper#158"
+    ],
+    [
+     "Paper#158",
+     "written_by",
+     "Author#1414"
+    ],
+    [
+     "Author#1414",
+     "writes",
+     "Paper#158"
+    ],
+    [
+     "Paper#158",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-000",
+   "hop": 5,
+   "start": "Paper#5995",
+   "start_id": 5995,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#5995",
+     "written_by",
+     "Author#1237"
+    ],
+    [
+     "Author#1237",
+     "writes",
+     "Paper#84"
+    ],
+    [
+     "Paper#84",
+     "written_by",
+     "Author#1237"
+    ],
+    [
+     "Author#1237",
+     "writes",
+     "Paper#84"
+    ],
+    [
+     "Paper#84",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-001",
+   "hop": 5,
+   "start": "Paper#7357",
+   "start_id": 7357,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#7357",
+     "written_by",
+     "Author#5738"
+    ],
+    [
+     "Author#5738",
+     "writes",
+     "Paper#7357"
+    ],
+    [
+     "Paper#7357",
+     "written_by",
+     "Author#5738"
+    ],
+    [
+     "Author#5738",
+     "writes",
+     "Paper#7357"
+    ],
+    [
+     "Paper#7357",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-002",
+   "hop": 5,
+   "start": "Paper#1102",
+   "start_id": 1102,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#1102",
+     "written_by",
+     "Author#3090"
+    ],
+    [
+     "Author#3090",
+     "writes",
+     "Paper#1102"
+    ],
+    [
+     "Paper#1102",
+     "written_by",
+     "Author#3090"
+    ],
+    [
+     "Author#3090",
+     "writes",
+     "Paper#1102"
+    ],
+    [
+     "Paper#1102",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-003",
+   "hop": 5,
+   "start": "Paper#2856",
+   "start_id": 2856,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#5",
+   "answer_id": 2000005,
+   "answer_ids": [
+    2000005,
+    2000010
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#2856",
+     "written_by",
+     "Author#9983"
+    ],
+    [
+     "Author#9983",
+     "writes",
+     "Paper#2856"
+    ],
+    [
+     "Paper#2856",
+     "written_by",
+     "Author#9983"
+    ],
+    [
+     "Author#9983",
+     "writes",
+     "Paper#2856"
+    ],
+    [
+     "Paper#2856",
+     "published_in",
+     "Conf#5"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-004",
+   "hop": 5,
+   "start": "Paper#13088",
+   "start_id": 13088,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13088",
+     "written_by",
+     "Author#3795"
+    ],
+    [
+     "Author#3795",
+     "writes",
+     "Paper#13088"
+    ],
+    [
+     "Paper#13088",
+     "written_by",
+     "Author#3795"
+    ],
+    [
+     "Author#3795",
+     "writes",
+     "Paper#13088"
+    ],
+    [
+     "Paper#13088",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-005",
+   "hop": 5,
+   "start": "Paper#13815",
+   "start_id": 13815,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13815",
+     "written_by",
+     "Author#8671"
+    ],
+    [
+     "Author#8671",
+     "writes",
+     "Paper#13815"
+    ],
+    [
+     "Paper#13815",
+     "written_by",
+     "Author#8671"
+    ],
+    [
+     "Author#8671",
+     "writes",
+     "Paper#13815"
+    ],
+    [
+     "Paper#13815",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-006",
+   "hop": 5,
+   "start": "Paper#135",
+   "start_id": 135,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#135",
+     "written_by",
+     "Author#1352"
+    ],
+    [
+     "Author#1352",
+     "writes",
+     "Paper#135"
+    ],
+    [
+     "Paper#135",
+     "written_by",
+     "Author#1352"
+    ],
+    [
+     "Author#1352",
+     "writes",
+     "Paper#135"
+    ],
+    [
+     "Paper#135",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-007",
+   "hop": 5,
+   "start": "Paper#3722",
+   "start_id": 3722,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#7",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#3722",
+     "written_by",
+     "Author#11133"
+    ],
+    [
+     "Author#11133",
+     "writes",
+     "Paper#3722"
+    ],
+    [
+     "Paper#3722",
+     "written_by",
+     "Author#11133"
+    ],
+    [
+     "Author#11133",
+     "writes",
+     "Paper#3722"
+    ],
+    [
+     "Paper#3722",
+     "published_in",
+     "Conf#7"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-008",
+   "hop": 5,
+   "start": "Paper#911",
+   "start_id": 911,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#911",
+     "written_by",
+     "Author#2853"
+    ],
+    [
+     "Author#2853",
+     "writes",
+     "Paper#911"
+    ],
+    [
+     "Paper#911",
+     "written_by",
+     "Author#2853"
+    ],
+    [
+     "Author#2853",
+     "writes",
+     "Paper#911"
+    ],
+    [
+     "Paper#911",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-009",
+   "hop": 5,
+   "start": "Paper#10329",
+   "start_id": 10329,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#10329",
+     "written_by",
+     "Author#8381"
+    ],
+    [
+     "Author#8381",
+     "writes",
+     "Paper#10212"
+    ],
+    [
+     "Paper#10212",
+     "written_by",
+     "Author#8381"
+    ],
+    [
+     "Author#8381",
+     "writes",
+     "Paper#10212"
+    ],
+    [
+     "Paper#10212",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-010",
+   "hop": 5,
+   "start": "Paper#808",
+   "start_id": 808,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#808",
+     "written_by",
+     "Author#908"
+    ],
+    [
+     "Author#908",
+     "writes",
+     "Paper#808"
+    ],
+    [
+     "Paper#808",
+     "written_by",
+     "Author#908"
+    ],
+    [
+     "Author#908",
+     "writes",
+     "Paper#808"
+    ],
+    [
+     "Paper#808",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-011",
+   "hop": 5,
+   "start": "Paper#2014",
+   "start_id": 2014,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002,
+    2000008
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#2014",
+     "written_by",
+     "Author#511"
+    ],
+    [
+     "Author#511",
+     "writes",
+     "Paper#2014"
+    ],
+    [
+     "Paper#2014",
+     "written_by",
+     "Author#511"
+    ],
+    [
+     "Author#511",
+     "writes",
+     "Paper#2014"
+    ],
+    [
+     "Paper#2014",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.2,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-012",
+   "hop": 5,
+   "start": "Paper#10251",
+   "start_id": 10251,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#10251",
+     "written_by",
+     "Author#13389"
+    ],
+    [
+     "Author#13389",
+     "writes",
+     "Paper#10251"
+    ],
+    [
+     "Paper#10251",
+     "written_by",
+     "Author#13389"
+    ],
+    [
+     "Author#13389",
+     "writes",
+     "Paper#10251"
+    ],
+    [
+     "Paper#10251",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-013",
+   "hop": 5,
+   "start": "Paper#373",
+   "start_id": 373,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#373",
+     "written_by",
+     "Author#1877"
+    ],
+    [
+     "Author#1877",
+     "writes",
+     "Paper#373"
+    ],
+    [
+     "Paper#373",
+     "written_by",
+     "Author#1877"
+    ],
+    [
+     "Author#1877",
+     "writes",
+     "Paper#373"
+    ],
+    [
+     "Paper#373",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-014",
+   "hop": 5,
+   "start": "Paper#1651",
+   "start_id": 1651,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#1651",
+     "written_by",
+     "Author#7672"
+    ],
+    [
+     "Author#7672",
+     "writes",
+     "Paper#1651"
+    ],
+    [
+     "Paper#1651",
+     "written_by",
+     "Author#7672"
+    ],
+    [
+     "Author#7672",
+     "writes",
+     "Paper#1651"
+    ],
+    [
+     "Paper#1651",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-015",
+   "hop": 5,
+   "start": "Paper#13072",
+   "start_id": 13072,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002,
+    2000018
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13072",
+     "written_by",
+     "Author#4235"
+    ],
+    [
+     "Author#4235",
+     "writes",
+     "Paper#1691"
+    ],
+    [
+     "Paper#1691",
+     "written_by",
+     "Author#4235"
+    ],
+    [
+     "Author#4235",
+     "writes",
+     "Paper#1691"
+    ],
+    [
+     "Paper#1691",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.2,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-016",
+   "hop": 5,
+   "start": "Paper#10038",
+   "start_id": 10038,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#10038",
+     "written_by",
+     "Author#9862"
+    ],
+    [
+     "Author#9862",
+     "writes",
+     "Paper#10038"
+    ],
+    [
+     "Paper#10038",
+     "written_by",
+     "Author#9862"
+    ],
+    [
+     "Author#9862",
+     "writes",
+     "Paper#10038"
+    ],
+    [
+     "Paper#10038",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-017",
+   "hop": 5,
+   "start": "Paper#11185",
+   "start_id": 11185,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#11185",
+     "written_by",
+     "Author#8301"
+    ],
+    [
+     "Author#8301",
+     "writes",
+     "Paper#11185"
+    ],
+    [
+     "Paper#11185",
+     "written_by",
+     "Author#8301"
+    ],
+    [
+     "Author#8301",
+     "writes",
+     "Paper#11185"
+    ],
+    [
+     "Paper#11185",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-018",
+   "hop": 5,
+   "start": "Paper#6455",
+   "start_id": 6455,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#6455",
+     "written_by",
+     "Author#12235"
+    ],
+    [
+     "Author#12235",
+     "writes",
+     "Paper#6455"
+    ],
+    [
+     "Paper#6455",
+     "written_by",
+     "Author#12235"
+    ],
+    [
+     "Author#12235",
+     "writes",
+     "Paper#6455"
+    ],
+    [
+     "Paper#6455",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-019",
+   "hop": 5,
+   "start": "Paper#6946",
+   "start_id": 6946,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#6946",
+     "written_by",
+     "Author#12322"
+    ],
+    [
+     "Author#12322",
+     "writes",
+     "Paper#6946"
+    ],
+    [
+     "Paper#6946",
+     "written_by",
+     "Author#12322"
+    ],
+    [
+     "Author#12322",
+     "writes",
+     "Paper#6946"
+    ],
+    [
+     "Paper#6946",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-020",
+   "hop": 5,
+   "start": "Paper#13320",
+   "start_id": 13320,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13320",
+     "written_by",
+     "Author#4943"
+    ],
+    [
+     "Author#4943",
+     "writes",
+     "Paper#13320"
+    ],
+    [
+     "Paper#13320",
+     "written_by",
+     "Author#4943"
+    ],
+    [
+     "Author#4943",
+     "writes",
+     "Paper#13320"
+    ],
+    [
+     "Paper#13320",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-021",
+   "hop": 5,
+   "start": "Paper#10419",
+   "start_id": 10419,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#10419",
+     "written_by",
+     "Author#13444"
+    ],
+    [
+     "Author#13444",
+     "writes",
+     "Paper#10419"
+    ],
+    [
+     "Paper#10419",
+     "written_by",
+     "Author#13444"
+    ],
+    [
+     "Author#13444",
+     "writes",
+     "Paper#10419"
+    ],
+    [
+     "Paper#10419",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-022",
+   "hop": 5,
+   "start": "Paper#13667",
+   "start_id": 13667,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#18",
+   "answer_id": 2000018,
+   "answer_ids": [
+    2000018
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13667",
+     "written_by",
+     "Author#14311"
+    ],
+    [
+     "Author#14311",
+     "writes",
+     "Paper#13667"
+    ],
+    [
+     "Paper#13667",
+     "written_by",
+     "Author#14311"
+    ],
+    [
+     "Author#14311",
+     "writes",
+     "Paper#13667"
+    ],
+    [
+     "Paper#13667",
+     "published_in",
+     "Conf#18"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-023",
+   "hop": 5,
+   "start": "Paper#10259",
+   "start_id": 10259,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#10259",
+     "written_by",
+     "Author#10863"
+    ],
+    [
+     "Author#10863",
+     "writes",
+     "Paper#10259"
+    ],
+    [
+     "Paper#10259",
+     "written_by",
+     "Author#10863"
+    ],
+    [
+     "Author#10863",
+     "writes",
+     "Paper#10259"
+    ],
+    [
+     "Paper#10259",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-024",
+   "hop": 5,
+   "start": "Paper#433",
+   "start_id": 433,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#1",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#433",
+     "written_by",
+     "Author#2013"
+    ],
+    [
+     "Author#2013",
+     "writes",
+     "Paper#433"
+    ],
+    [
+     "Paper#433",
+     "written_by",
+     "Author#2013"
+    ],
+    [
+     "Author#2013",
+     "writes",
+     "Paper#433"
+    ],
+    [
+     "Paper#433",
+     "published_in",
+     "Conf#1"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-025",
+   "hop": 5,
+   "start": "Paper#8665",
+   "start_id": 8665,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#12",
+   "answer_id": 2000012,
+   "answer_ids": [
+    2000012
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#8665",
+     "written_by",
+     "Author#12934"
+    ],
+    [
+     "Author#12934",
+     "writes",
+     "Paper#8665"
+    ],
+    [
+     "Paper#8665",
+     "written_by",
+     "Author#12934"
+    ],
+    [
+     "Author#12934",
+     "writes",
+     "Paper#8665"
+    ],
+    [
+     "Paper#8665",
+     "published_in",
+     "Conf#12"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-026",
+   "hop": 5,
+   "start": "Paper#6501",
+   "start_id": 6501,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#6501",
+     "written_by",
+     "Author#12243"
+    ],
+    [
+     "Author#12243",
+     "writes",
+     "Paper#6501"
+    ],
+    [
+     "Paper#6501",
+     "written_by",
+     "Author#12243"
+    ],
+    [
+     "Author#12243",
+     "writes",
+     "Paper#6501"
+    ],
+    [
+     "Paper#6501",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-027",
+   "hop": 5,
+   "start": "Paper#8256",
+   "start_id": 8256,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#2",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002,
+    2000011
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#8256",
+     "written_by",
+     "Author#359"
+    ],
+    [
+     "Author#359",
+     "writes",
+     "Paper#2177"
+    ],
+    [
+     "Paper#2177",
+     "written_by",
+     "Author#359"
+    ],
+    [
+     "Author#359",
+     "writes",
+     "Paper#2177"
+    ],
+    [
+     "Paper#2177",
+     "published_in",
+     "Conf#2"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-028",
+   "hop": 5,
+   "start": "Paper#7388",
+   "start_id": 7388,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#10",
+   "answer_id": 2000010,
+   "answer_ids": [
+    2000010
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#7388",
+     "written_by",
+     "Author#12405"
+    ],
+    [
+     "Author#12405",
+     "writes",
+     "Paper#7388"
+    ],
+    [
+     "Paper#7388",
+     "written_by",
+     "Author#12405"
+    ],
+    [
+     "Author#12405",
+     "writes",
+     "Paper#7388"
+    ],
+    [
+     "Paper#7388",
+     "published_in",
+     "Conf#10"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "dblp-h5-029",
+   "hop": 5,
+   "start": "Paper#11166",
+   "start_id": 11166,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "answer": "Conf#16",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#11166",
+     "written_by",
+     "Author#13645"
+    ],
+    [
+     "Author#13645",
+     "writes",
+     "Paper#11166"
+    ],
+    [
+     "Paper#11166",
+     "written_by",
+     "Author#13645"
+    ],
+    [
+     "Author#13645",
+     "writes",
+     "Paper#11166"
+    ],
+    [
+     "Paper#11166",
+     "published_in",
+     "Conf#16"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  }
+ ]
+}

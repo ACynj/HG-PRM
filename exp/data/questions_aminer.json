@@ -1,0 +1,7032 @@
+{
+ "source": "Aminer (Jhy1993/Datasets-for-Heterogeneous-Graph), open protocol",
+ "schema": [
+  [
+   "Author",
+   "writes",
+   "Paper"
+  ],
+  [
+   "Conference",
+   "publishes",
+   "Paper"
+  ],
+  [
+   "Paper",
+   "has_term",
+   "Term"
+  ],
+  [
+   "Paper",
+   "published_in",
+   "Conference"
+  ],
+  [
+   "Paper",
+   "written_by",
+   "Author"
+  ],
+  [
+   "Term",
+   "term_of",
+   "Paper"
+  ]
+ ],
+ "n_entities": 439448,
+ "protocol": "open",
+ "questions": [
+  {
+   "qid": "aminer-h2-000",
+   "hop": 2,
+   "start": "Han Liang",
+   "start_id": 1090885,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Bioinformatics",
+   "answer_id": 2000048,
+   "answer_ids": [
+    2000048
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Han Liang",
+     "writes",
+     "Paper#67106"
+    ],
+    [
+     "Paper#67106",
+     "published_in",
+     "Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-001",
+   "hop": 2,
+   "start": "Raquel Viaña",
+   "start_id": 1028404,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "GeoInformatica",
+   "answer_id": 2000014,
+   "answer_ids": [
+    2000014
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Raquel Viaña",
+     "writes",
+     "Paper#20886"
+    ],
+    [
+     "Paper#20886",
+     "published_in",
+     "GeoInformatica"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-002",
+   "hop": 2,
+   "start": "Hongliu Zou",
+   "start_id": 1006924,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer-Aided Design",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Hongliu Zou",
+     "writes",
+     "Paper#4405"
+    ],
+    [
+     "Paper#4405",
+     "published_in",
+     "Computer-Aided Design"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-003",
+   "hop": 2,
+   "start": "Shaojun Sun",
+   "start_id": 1095477,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "BMC Bioinformatics",
+   "answer_id": 2000049,
+   "answer_ids": [
+    2000049
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Shaojun Sun",
+     "writes",
+     "Paper#69394"
+    ],
+    [
+     "Paper#69394",
+     "published_in",
+     "BMC Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-004",
+   "hop": 2,
+   "start": "Carlos Alberto Kamienski",
+   "start_id": 1129060,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069,
+    2000071
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Carlos Alberto Kamienski",
+     "writes",
+     "Paper#93358"
+    ],
+    [
+     "Paper#93358",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-005",
+   "hop": 2,
+   "start": "Friedrich Hanser",
+   "start_id": 1115072,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Medical Image Analysis",
+   "answer_id": 2000057,
+   "answer_ids": [
+    2000057
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Friedrich Hanser",
+     "writes",
+     "Paper#79898"
+    ],
+    [
+     "Paper#79898",
+     "published_in",
+     "Medical Image Analysis"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-006",
+   "hop": 2,
+   "start": "Kimio Oguchi",
+   "start_id": 1159294,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Communications",
+   "answer_id": 2000098,
+   "answer_ids": [
+    2000098
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Kimio Oguchi",
+     "writes",
+     "Paper#122547"
+    ],
+    [
+     "Paper#122547",
+     "published_in",
+     "IEEE Transactions on Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-007",
+   "hop": 2,
+   "start": "Gaoming Huang",
+   "start_id": 1109276,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "SCIENCE CHINA Information Sciences",
+   "answer_id": 2000053,
+   "answer_ids": [
+    2000053,
+    2000070
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Gaoming Huang",
+     "writes",
+     "Paper#76878"
+    ],
+    [
+     "Paper#76878",
+     "published_in",
+     "SCIENCE CHINA Information Sciences"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-008",
+   "hop": 2,
+   "start": "Shiwei Wang",
+   "start_id": 1043588,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Neural Networks",
+   "answer_id": 2000028,
+   "answer_ids": [
+    2000028
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Shiwei Wang",
+     "writes",
+     "Paper#32279"
+    ],
+    [
+     "Paper#32279",
+     "published_in",
+     "Neural Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-009",
+   "hop": 2,
+   "start": "Xiao-hong Chen",
+   "start_id": 1061693,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Pattern Recognition Letters",
+   "answer_id": 2000036,
+   "answer_ids": [
+    2000036
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Xiao-hong Chen",
+     "writes",
+     "Paper#48808"
+    ],
+    [
+     "Paper#48808",
+     "published_in",
+     "Pattern Recognition Letters"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-010",
+   "hop": 2,
+   "start": "John Archer",
+   "start_id": 1084440,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Bioinformatics",
+   "answer_id": 2000048,
+   "answer_ids": [
+    2000048,
+    2000051
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "John Archer",
+     "writes",
+     "Paper#64266"
+    ],
+    [
+     "Paper#64266",
+     "published_in",
+     "Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-011",
+   "hop": 2,
+   "start": "Ana Elisa P. Goulart",
+   "start_id": 1135666,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Communications",
+   "answer_id": 2000071,
+   "answer_ids": [
+    2000071
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Ana Elisa P. Goulart",
+     "writes",
+     "Paper#99385"
+    ],
+    [
+     "Paper#99385",
+     "published_in",
+     "Computer Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-012",
+   "hop": 2,
+   "start": "Ricard Delgado-Gonzalo",
+   "start_id": 1005835,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Image Processing",
+   "answer_id": 2000000,
+   "answer_ids": [
+    2000000,
+    2000002
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Ricard Delgado-Gonzalo",
+     "writes",
+     "Paper#3770"
+    ],
+    [
+     "Paper#3770",
+     "published_in",
+     "IEEE Transactions on Image Processing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-013",
+   "hop": 2,
+   "start": "Alexandre Delteil",
+   "start_id": 1069940,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Web Intelligence and Agent Systems",
+   "answer_id": 2000040,
+   "answer_ids": [
+    2000040
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Alexandre Delteil",
+     "writes",
+     "Paper#57080"
+    ],
+    [
+     "Paper#57080",
+     "published_in",
+     "Web Intelligence and Agent Systems"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-014",
+   "hop": 2,
+   "start": "Huanlai Xing",
+   "start_id": 1138568,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Communications",
+   "answer_id": 2000071,
+   "answer_ids": [
+    2000071
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Huanlai Xing",
+     "writes",
+     "Paper#102177"
+    ],
+    [
+     "Paper#102177",
+     "published_in",
+     "Computer Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-015",
+   "hop": 2,
+   "start": "An-Chen Lee",
+   "start_id": 1009513,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer-Aided Design",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "An-Chen Lee",
+     "writes",
+     "Paper#6268"
+    ],
+    [
+     "Paper#6268",
+     "published_in",
+     "Computer-Aided Design"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-016",
+   "hop": 2,
+   "start": "Han Liu",
+   "start_id": 1035483,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Journal of Machine Learning Research",
+   "answer_id": 2000022,
+   "answer_ids": [
+    2000022
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Han Liu",
+     "writes",
+     "Paper#25675"
+    ],
+    [
+     "Paper#25675",
+     "published_in",
+     "Journal of Machine Learning Research"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-017",
+   "hop": 2,
+   "start": "James Parker",
+   "start_id": 1029148,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Distributed and Parallel Databases",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016,
+    2000030
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "James Parker",
+     "writes",
+     "Paper#21267"
+    ],
+    [
+     "Paper#21267",
+     "published_in",
+     "Distributed and Parallel Databases"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-018",
+   "hop": 2,
+   "start": "Bjørn Axel Gran",
+   "start_id": 1150487,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Journal of Systems and Software",
+   "answer_id": 2000086,
+   "answer_ids": [
+    2000086
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Bjørn Axel Gran",
+     "writes",
+     "Paper#114007"
+    ],
+    [
+     "Paper#114007",
+     "published_in",
+     "Journal of Systems and Software"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-019",
+   "hop": 2,
+   "start": "Steven Simpson",
+   "start_id": 1128239,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069,
+    2000071
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Steven Simpson",
+     "writes",
+     "Paper#92836"
+    ],
+    [
+     "Paper#92836",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-020",
+   "hop": 2,
+   "start": "Robert Sowerby",
+   "start_id": 1007825,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer-Aided Design",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Robert Sowerby",
+     "writes",
+     "Paper#4997"
+    ],
+    [
+     "Paper#4997",
+     "published_in",
+     "Computer-Aided Design"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-021",
+   "hop": 2,
+   "start": "Phuong Vu",
+   "start_id": 1154440,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "The Journal of Supercomputing",
+   "answer_id": 2000093,
+   "answer_ids": [
+    2000093,
+    2000099
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Phuong Vu",
+     "writes",
+     "Paper#117261"
+    ],
+    [
+     "Paper#117261",
+     "published_in",
+     "The Journal of Supercomputing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-022",
+   "hop": 2,
+   "start": "Yu-Nan Lin",
+   "start_id": 1131596,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Wireless Communications",
+   "answer_id": 2000070,
+   "answer_ids": [
+    2000070
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Yu-Nan Lin",
+     "writes",
+     "Paper#95079"
+    ],
+    [
+     "Paper#95079",
+     "published_in",
+     "IEEE Transactions on Wireless Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-023",
+   "hop": 2,
+   "start": "Meicheng Liu",
+   "start_id": 1109540,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "SCIENCE CHINA Information Sciences",
+   "answer_id": 2000053,
+   "answer_ids": [
+    2000053
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Meicheng Liu",
+     "writes",
+     "Paper#77001"
+    ],
+    [
+     "Paper#77001",
+     "published_in",
+     "SCIENCE CHINA Information Sciences"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-024",
+   "hop": 2,
+   "start": "T. Y. Ji",
+   "start_id": 1020448,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Signal Processing",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "T. Y. Ji",
+     "writes",
+     "Paper#14718"
+    ],
+    [
+     "Paper#14718",
+     "published_in",
+     "Signal Processing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-025",
+   "hop": 2,
+   "start": "Minas Pertselakis",
+   "start_id": 1065642,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Neurocomputing",
+   "answer_id": 2000037,
+   "answer_ids": [
+    2000037
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Minas Pertselakis",
+     "writes",
+     "Paper#52486"
+    ],
+    [
+     "Paper#52486",
+     "published_in",
+     "Neurocomputing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-026",
+   "hop": 2,
+   "start": "Yangxi Li",
+   "start_id": 1013110,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Multimedia",
+   "answer_id": 2000004,
+   "answer_ids": [
+    2000004,
+    2000037
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Yangxi Li",
+     "writes",
+     "Paper#9274"
+    ],
+    [
+     "Paper#9274",
+     "published_in",
+     "IEEE Transactions on Multimedia"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-027",
+   "hop": 2,
+   "start": "Kyriacos C. Kyriacou",
+   "start_id": 1112341,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Information Technology in Bio",
+   "answer_id": 2000056,
+   "answer_ids": [
+    2000056
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Kyriacos C. Kyriacou",
+     "writes",
+     "Paper#78699"
+    ],
+    [
+     "Paper#78699",
+     "published_in",
+     "IEEE Transactions on Information Technology in Bio"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-028",
+   "hop": 2,
+   "start": "Song-Chol Han",
+   "start_id": 1055990,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Fuzzy Sets and Systems",
+   "answer_id": 2000034,
+   "answer_ids": [
+    2000034
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Song-Chol Han",
+     "writes",
+     "Paper#42559"
+    ],
+    [
+     "Paper#42559",
+     "published_in",
+     "Fuzzy Sets and Systems"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h2-029",
+   "hop": 2,
+   "start": "Dashan Gao",
+   "start_id": 1068569,
+   "rel_seq": [
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Neural Computation",
+   "answer_id": 2000038,
+   "answer_ids": [
+    2000038
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Dashan Gao",
+     "writes",
+     "Paper#55564"
+    ],
+    [
+     "Paper#55564",
+     "published_in",
+     "Neural Computation"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "aminer-h3-000",
+   "hop": 3,
+   "start": "Paper#88873",
+   "start_id": 88873,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computational Complexity",
+   "answer_id": 2000060,
+   "answer_ids": [
+    2000060,
+    2000065
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#88873",
+     "written_by",
+     "Henning Wunderlich"
+    ],
+    [
+     "Henning Wunderlich",
+     "writes",
+     "Paper#82717"
+    ],
+    [
+     "Paper#82717",
+     "published_in",
+     "Computational Complexity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-001",
+   "hop": 3,
+   "start": "Paper#90029",
+   "start_id": 90029,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Formal Methods in System Design",
+   "answer_id": 2000061,
+   "answer_ids": [
+    2000061,
+    2000067
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#90029",
+     "written_by",
+     "Jeremy Sproston"
+    ],
+    [
+     "Jeremy Sproston",
+     "writes",
+     "Paper#83046"
+    ],
+    [
+     "Paper#83046",
+     "published_in",
+     "Formal Methods in System Design"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-002",
+   "hop": 3,
+   "start": "Paper#76655",
+   "start_id": 76655,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Robotics",
+   "answer_id": 2000052,
+   "answer_ids": [
+    2000052
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#76655",
+     "written_by",
+     "Stefano Stramigioli"
+    ],
+    [
+     "Stefano Stramigioli",
+     "writes",
+     "Paper#75564"
+    ],
+    [
+     "Paper#75564",
+     "published_in",
+     "IEEE Transactions on Robotics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 5.0,
+   "distract_max": 11,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-003",
+   "hop": 3,
+   "start": "Paper#20101",
+   "start_id": 20101,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer-Aided Design",
+   "answer_id": 2000001,
+   "answer_ids": [
+    2000001,
+    2000012
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#20101",
+     "written_by",
+     "Krishnan Suresh"
+    ],
+    [
+     "Krishnan Suresh",
+     "writes",
+     "Paper#4678"
+    ],
+    [
+     "Paper#4678",
+     "published_in",
+     "Computer-Aided Design"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.6666666666666665,
+   "distract_max": 5,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-004",
+   "hop": 3,
+   "start": "Paper#114747",
+   "start_id": 114747,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Software and System Modeling",
+   "answer_id": 2000088,
+   "answer_ids": [
+    2000088
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#114747",
+     "written_by",
+     "James D'Arcy Walsh"
+    ],
+    [
+     "James D'Arcy Walsh",
+     "writes",
+     "Paper#114747"
+    ],
+    [
+     "Paper#114747",
+     "published_in",
+     "Software and System Modeling"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-005",
+   "hop": 3,
+   "start": "Paper#40713",
+   "start_id": 40713,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Information and Management",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017,
+    2000031,
+    2000065
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#40713",
+     "written_by",
+     "H. Raghav Rao"
+    ],
+    [
+     "H. Raghav Rao",
+     "writes",
+     "Paper#22280"
+    ],
+    [
+     "Paper#22280",
+     "published_in",
+     "Information and Management"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 9.0,
+   "distract_max": 23,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-006",
+   "hop": 3,
+   "start": "Paper#108832",
+   "start_id": 108832,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computers & Security",
+   "answer_id": 2000079,
+   "answer_ids": [
+    2000079
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#108832",
+     "written_by",
+     "Albin Zuccato"
+    ],
+    [
+     "Albin Zuccato",
+     "writes",
+     "Paper#108774"
+    ],
+    [
+     "Paper#108774",
+     "published_in",
+     "Computers & Security"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-007",
+   "hop": 3,
+   "start": "Paper#37746",
+   "start_id": 37746,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Pattern Recognition",
+   "answer_id": 2000029,
+   "answer_ids": [
+    2000029
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#37746",
+     "written_by",
+     "Johan A. du Preez"
+    ],
+    [
+     "Johan A. du Preez",
+     "writes",
+     "Paper#37428"
+    ],
+    [
+     "Paper#37428",
+     "published_in",
+     "Pattern Recognition"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-008",
+   "hop": 3,
+   "start": "Paper#41500",
+   "start_id": 41500,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computational Intelligence",
+   "answer_id": 2000032,
+   "answer_ids": [
+    2000032
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#41500",
+     "written_by",
+     "Ning Shan"
+    ],
+    [
+     "Ning Shan",
+     "writes",
+     "Paper#41500"
+    ],
+    [
+     "Paper#41500",
+     "published_in",
+     "Computational Intelligence"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-009",
+   "hop": 3,
+   "start": "Paper#40892",
+   "start_id": 40892,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Decision Support Systems",
+   "answer_id": 2000031,
+   "answer_ids": [
+    2000031
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#40892",
+     "written_by",
+     "Julian David Hunt"
+    ],
+    [
+     "Julian David Hunt",
+     "writes",
+     "Paper#40892"
+    ],
+    [
+     "Paper#40892",
+     "published_in",
+     "Decision Support Systems"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-010",
+   "hop": 3,
+   "start": "Paper#79051",
+   "start_id": 79051,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Information Technology in Bio",
+   "answer_id": 2000056,
+   "answer_ids": [
+    2000056,
+    2000099
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#79051",
+     "written_by",
+     "David M. Kwartowitz"
+    ],
+    [
+     "David M. Kwartowitz",
+     "writes",
+     "Paper#79051"
+    ],
+    [
+     "Paper#79051",
+     "published_in",
+     "IEEE Transactions on Information Technology in Bio"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-011",
+   "hop": 3,
+   "start": "Paper#125729",
+   "start_id": 125729,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Parallel Computing",
+   "answer_id": 2000099,
+   "answer_ids": [
+    2000099
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#125729",
+     "written_by",
+     "P. Michielse"
+    ],
+    [
+     "P. Michielse",
+     "writes",
+     "Paper#125729"
+    ],
+    [
+     "Paper#125729",
+     "published_in",
+     "Parallel Computing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-012",
+   "hop": 3,
+   "start": "Paper#22614",
+   "start_id": 22614,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "International Journal of Geographical Information ",
+   "answer_id": 2000019,
+   "answer_ids": [
+    2000019
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#22614",
+     "written_by",
+     "Alistair Geddes"
+    ],
+    [
+     "Alistair Geddes",
+     "writes",
+     "Paper#22614"
+    ],
+    [
+     "Paper#22614",
+     "published_in",
+     "International Journal of Geographical Information "
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-013",
+   "hop": 3,
+   "start": "Paper#103543",
+   "start_id": 103543,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Wireless Communications",
+   "answer_id": 2000070,
+   "answer_ids": [
+    2000070,
+    2000074,
+    2000098
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#103543",
+     "written_by",
+     "Evaggelos Geraniotis"
+    ],
+    [
+     "Evaggelos Geraniotis",
+     "writes",
+     "Paper#97992"
+    ],
+    [
+     "Paper#97992",
+     "published_in",
+     "IEEE Transactions on Wireless Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 5.333333333333333,
+   "distract_max": 12,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-014",
+   "hop": 3,
+   "start": "Paper#9522",
+   "start_id": 9522,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Speech Communication",
+   "answer_id": 2000005,
+   "answer_ids": [
+    2000005
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#9522",
+     "written_by",
+     "Anna Pribilová"
+    ],
+    [
+     "Anna Pribilová",
+     "writes",
+     "Paper#9522"
+    ],
+    [
+     "Paper#9522",
+     "published_in",
+     "Speech Communication"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-015",
+   "hop": 3,
+   "start": "Paper#64216",
+   "start_id": 64216,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Bioinformatics",
+   "answer_id": 2000048,
+   "answer_ids": [
+    2000048
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#64216",
+     "written_by",
+     "Chris Harbron"
+    ],
+    [
+     "Chris Harbron",
+     "writes",
+     "Paper#64216"
+    ],
+    [
+     "Paper#64216",
+     "published_in",
+     "Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-016",
+   "hop": 3,
+   "start": "Paper#65942",
+   "start_id": 65942,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Bioinformatics",
+   "answer_id": 2000048,
+   "answer_ids": [
+    2000048
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#65942",
+     "written_by",
+     "Gregory Ewing"
+    ],
+    [
+     "Gregory Ewing",
+     "writes",
+     "Paper#65942"
+    ],
+    [
+     "Paper#65942",
+     "published_in",
+     "Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-017",
+   "hop": 3,
+   "start": "Paper#81546",
+   "start_id": 81546,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Algorithmica",
+   "answer_id": 2000059,
+   "answer_ids": [
+    2000059
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#81546",
+     "written_by",
+     "G. Rinaldi"
+    ],
+    [
+     "G. Rinaldi",
+     "writes",
+     "Paper#81546"
+    ],
+    [
+     "Paper#81546",
+     "published_in",
+     "Algorithmica"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-018",
+   "hop": 3,
+   "start": "Paper#68618",
+   "start_id": 68618,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Bioinformatics",
+   "answer_id": 2000048,
+   "answer_ids": [
+    2000048,
+    2000049,
+    2000051
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#68618",
+     "written_by",
+     "Wyeth W. Wasserman"
+    ],
+    [
+     "Wyeth W. Wasserman",
+     "writes",
+     "Paper#61942"
+    ],
+    [
+     "Paper#61942",
+     "published_in",
+     "Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 3.3333333333333335,
+   "distract_max": 6,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-019",
+   "hop": 3,
+   "start": "Paper#74323",
+   "start_id": 74323,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Bioinformatics",
+   "answer_id": 2000048,
+   "answer_ids": [
+    2000048,
+    2000051
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#74323",
+     "written_by",
+     "Edouard Yeramian"
+    ],
+    [
+     "Edouard Yeramian",
+     "writes",
+     "Paper#63376"
+    ],
+    [
+     "Paper#63376",
+     "published_in",
+     "Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-020",
+   "hop": 3,
+   "start": "Paper#110507",
+   "start_id": 110507,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Security and Communication Networks",
+   "answer_id": 2000081,
+   "answer_ids": [
+    2000081,
+    2000083,
+    2000086
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#110507",
+     "written_by",
+     "Jongsung Kim"
+    ],
+    [
+     "Jongsung Kim",
+     "writes",
+     "Paper#110040"
+    ],
+    [
+     "Paper#110040",
+     "published_in",
+     "Security and Communication Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.3333333333333335,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-021",
+   "hop": 3,
+   "start": "Paper#59109",
+   "start_id": 59109,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Pervasive and Mobile Computing",
+   "answer_id": 2000045,
+   "answer_ids": [
+    2000045
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#59109",
+     "written_by",
+     "K. L. Eddie Law"
+    ],
+    [
+     "K. L. Eddie Law",
+     "writes",
+     "Paper#59109"
+    ],
+    [
+     "Paper#59109",
+     "published_in",
+     "Pervasive and Mobile Computing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-022",
+   "hop": 3,
+   "start": "Paper#119446",
+   "start_id": 119446,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Communications",
+   "answer_id": 2000098,
+   "answer_ids": [
+    2000098
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#119446",
+     "written_by",
+     "T. Johansson"
+    ],
+    [
+     "T. Johansson",
+     "writes",
+     "Paper#119446"
+    ],
+    [
+     "Paper#119446",
+     "published_in",
+     "IEEE Transactions on Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-023",
+   "hop": 3,
+   "start": "Paper#54495",
+   "start_id": 54495,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Neural Computation",
+   "answer_id": 2000038,
+   "answer_ids": [
+    2000038
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#54495",
+     "written_by",
+     "Mladen I. Glavinovic"
+    ],
+    [
+     "Mladen I. Glavinovic",
+     "writes",
+     "Paper#54495"
+    ],
+    [
+     "Paper#54495",
+     "published_in",
+     "Neural Computation"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-024",
+   "hop": 3,
+   "start": "Paper#80774",
+   "start_id": 80774,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Discrete & Computational Geometry",
+   "answer_id": 2000006,
+   "answer_ids": [
+    2000006,
+    2000008,
+    2000059
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#80774",
+     "written_by",
+     "Chee-Keng Yap"
+    ],
+    [
+     "Chee-Keng Yap",
+     "writes",
+     "Paper#11330"
+    ],
+    [
+     "Paper#11330",
+     "published_in",
+     "Discrete & Computational Geometry"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 7.0,
+   "distract_max": 18,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-025",
+   "hop": 3,
+   "start": "Paper#32969",
+   "start_id": 32969,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Pattern Recognition",
+   "answer_id": 2000029,
+   "answer_ids": [
+    2000029
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#32969",
+     "written_by",
+     "Antoine Aubert"
+    ],
+    [
+     "Antoine Aubert",
+     "writes",
+     "Paper#32969"
+    ],
+    [
+     "Paper#32969",
+     "published_in",
+     "Pattern Recognition"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-026",
+   "hop": 3,
+   "start": "Paper#22949",
+   "start_id": 22949,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "International Journal of Geographical Information ",
+   "answer_id": 2000019,
+   "answer_ids": [
+    2000019
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#22949",
+     "written_by",
+     "X. Shi"
+    ],
+    [
+     "X. Shi",
+     "writes",
+     "Paper#22949"
+    ],
+    [
+     "Paper#22949",
+     "published_in",
+     "International Journal of Geographical Information "
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-027",
+   "hop": 3,
+   "start": "Paper#109288",
+   "start_id": 109288,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Information Forensics and Sec",
+   "answer_id": 2000078,
+   "answer_ids": [
+    2000078,
+    2000079
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#109288",
+     "written_by",
+     "Simson L. Garfinkel"
+    ],
+    [
+     "Simson L. Garfinkel",
+     "writes",
+     "Paper#107253"
+    ],
+    [
+     "Paper#107253",
+     "published_in",
+     "IEEE Transactions on Information Forensics and Sec"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-028",
+   "hop": 3,
+   "start": "Paper#13281",
+   "start_id": 13281,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Signal Processing",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13281",
+     "written_by",
+     "E. Tsakiroglou"
+    ],
+    [
+     "E. Tsakiroglou",
+     "writes",
+     "Paper#13281"
+    ],
+    [
+     "Paper#13281",
+     "published_in",
+     "Signal Processing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h3-029",
+   "hop": 3,
+   "start": "Paper#101248",
+   "start_id": 101248,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Communications",
+   "answer_id": 2000071,
+   "answer_ids": [
+    2000071,
+    2000074
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#101248",
+     "written_by",
+     "Yong-Qian Chen"
+    ],
+    [
+     "Yong-Qian Chen",
+     "writes",
+     "Paper#101248"
+    ],
+    [
+     "Paper#101248",
+     "published_in",
+     "Computer Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-000",
+   "hop": 4,
+   "start": "C. van Trigt",
+   "start_id": 1033463,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "International Journal of Computer Vision",
+   "answer_id": 2000021,
+   "answer_ids": [
+    2000021
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "C. van Trigt",
+     "writes",
+     "Paper#23984"
+    ],
+    [
+     "Paper#23984",
+     "written_by",
+     "C. van Trigt"
+    ],
+    [
+     "C. van Trigt",
+     "writes",
+     "Paper#23984"
+    ],
+    [
+     "Paper#23984",
+     "published_in",
+     "International Journal of Computer Vision"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-001",
+   "hop": 4,
+   "start": "Miroslav Vrankic",
+   "start_id": 1005346,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Image Processing",
+   "answer_id": 2000000,
+   "answer_ids": [
+    2000000,
+    2000007,
+    2000037
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Miroslav Vrankic",
+     "writes",
+     "Paper#3465"
+    ],
+    [
+     "Paper#3465",
+     "written_by",
+     "Miroslav Vrankic"
+    ],
+    [
+     "Miroslav Vrankic",
+     "writes",
+     "Paper#3465"
+    ],
+    [
+     "Paper#3465",
+     "published_in",
+     "IEEE Transactions on Image Processing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-002",
+   "hop": 4,
+   "start": "M. Praveen",
+   "start_id": 1117547,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Algorithmica",
+   "answer_id": 2000059,
+   "answer_ids": [
+    2000059
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "M. Praveen",
+     "writes",
+     "Paper#82367"
+    ],
+    [
+     "Paper#82367",
+     "written_by",
+     "M. Praveen"
+    ],
+    [
+     "M. Praveen",
+     "writes",
+     "Paper#82367"
+    ],
+    [
+     "Paper#82367",
+     "published_in",
+     "Algorithmica"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-003",
+   "hop": 4,
+   "start": "Nalini Kotamraju",
+   "start_id": 1072449,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Interacting with Computers",
+   "answer_id": 2000044,
+   "answer_ids": [
+    2000044
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Nalini Kotamraju",
+     "writes",
+     "Paper#58807"
+    ],
+    [
+     "Paper#58807",
+     "written_by",
+     "Nalini Kotamraju"
+    ],
+    [
+     "Nalini Kotamraju",
+     "writes",
+     "Paper#58807"
+    ],
+    [
+     "Paper#58807",
+     "published_in",
+     "Interacting with Computers"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-004",
+   "hop": 4,
+   "start": "Samuel Rippa",
+   "start_id": 1010469,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Aided Geometric Design",
+   "answer_id": 2000002,
+   "answer_ids": [
+    2000002
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Samuel Rippa",
+     "writes",
+     "Paper#7280"
+    ],
+    [
+     "Paper#7280",
+     "written_by",
+     "Samuel Rippa"
+    ],
+    [
+     "Samuel Rippa",
+     "writes",
+     "Paper#7280"
+    ],
+    [
+     "Paper#7280",
+     "published_in",
+     "Computer Aided Geometric Design"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-005",
+   "hop": 4,
+   "start": "Michele Pagani",
+   "start_id": 1120052,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Mathematical Structures in Computer Science",
+   "answer_id": 2000063,
+   "answer_ids": [
+    2000063
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Michele Pagani",
+     "writes",
+     "Paper#84544"
+    ],
+    [
+     "Paper#84544",
+     "written_by",
+     "Michele Pagani"
+    ],
+    [
+     "Michele Pagani",
+     "writes",
+     "Paper#84544"
+    ],
+    [
+     "Paper#84544",
+     "published_in",
+     "Mathematical Structures in Computer Science"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-006",
+   "hop": 4,
+   "start": "Hermann Puhlmann",
+   "start_id": 1119859,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Mathematical Structures in Computer Science",
+   "answer_id": 2000063,
+   "answer_ids": [
+    2000063
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Hermann Puhlmann",
+     "writes",
+     "Paper#84335"
+    ],
+    [
+     "Paper#84335",
+     "written_by",
+     "Hermann Puhlmann"
+    ],
+    [
+     "Hermann Puhlmann",
+     "writes",
+     "Paper#84335"
+    ],
+    [
+     "Paper#84335",
+     "published_in",
+     "Mathematical Structures in Computer Science"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-007",
+   "hop": 4,
+   "start": "Yoshiaki Taniai",
+   "start_id": 1068545,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Neural Networks",
+   "answer_id": 2000028,
+   "answer_ids": [
+    2000028,
+    2000038
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Yoshiaki Taniai",
+     "writes",
+     "Paper#55540"
+    ],
+    [
+     "Paper#55540",
+     "written_by",
+     "Jun Nishii"
+    ],
+    [
+     "Jun Nishii",
+     "writes",
+     "Paper#31394"
+    ],
+    [
+     "Paper#31394",
+     "published_in",
+     "Neural Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-008",
+   "hop": 4,
+   "start": "Chris Sluman",
+   "start_id": 1127593,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Chris Sluman",
+     "writes",
+     "Paper#92364"
+    ],
+    [
+     "Paper#92364",
+     "written_by",
+     "Chris Sluman"
+    ],
+    [
+     "Chris Sluman",
+     "writes",
+     "Paper#92364"
+    ],
+    [
+     "Paper#92364",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-009",
+   "hop": 4,
+   "start": "Jonathan L. Shapiro",
+   "start_id": 1036309,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Evolutionary Computation",
+   "answer_id": 2000023,
+   "answer_ids": [
+    2000023
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Jonathan L. Shapiro",
+     "writes",
+     "Paper#26263"
+    ],
+    [
+     "Paper#26263",
+     "written_by",
+     "Jonathan L. Shapiro"
+    ],
+    [
+     "Jonathan L. Shapiro",
+     "writes",
+     "Paper#26263"
+    ],
+    [
+     "Paper#26263",
+     "published_in",
+     "Evolutionary Computation"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-010",
+   "hop": 4,
+   "start": "Peter von Studnitz",
+   "start_id": 1127681,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Peter von Studnitz",
+     "writes",
+     "Paper#92418"
+    ],
+    [
+     "Paper#92418",
+     "written_by",
+     "Peter von Studnitz"
+    ],
+    [
+     "Peter von Studnitz",
+     "writes",
+     "Paper#92418"
+    ],
+    [
+     "Paper#92418",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-011",
+   "hop": 4,
+   "start": "Robert H. Gilman",
+   "start_id": 1079973,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Bioinformatics",
+   "answer_id": 2000048,
+   "answer_ids": [
+    2000048,
+    2000051
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Robert H. Gilman",
+     "writes",
+     "Paper#62099"
+    ],
+    [
+     "Paper#62099",
+     "written_by",
+     "Buddhaditta Bose"
+    ],
+    [
+     "Buddhaditta Bose",
+     "writes",
+     "Paper#62099"
+    ],
+    [
+     "Paper#62099",
+     "published_in",
+     "Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 4.0,
+   "distract_max": 12,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-012",
+   "hop": 4,
+   "start": "Hervé Déjean",
+   "start_id": 1034975,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Journal of Machine Learning Research",
+   "answer_id": 2000022,
+   "answer_ids": [
+    2000022
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Hervé Déjean",
+     "writes",
+     "Paper#25326"
+    ],
+    [
+     "Paper#25326",
+     "written_by",
+     "Hervé Déjean"
+    ],
+    [
+     "Hervé Déjean",
+     "writes",
+     "Paper#25326"
+    ],
+    [
+     "Paper#25326",
+     "published_in",
+     "Journal of Machine Learning Research"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-013",
+   "hop": 4,
+   "start": "Thomas Hayter",
+   "start_id": 1135699,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Communications",
+   "answer_id": 2000071,
+   "answer_ids": [
+    2000071
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Thomas Hayter",
+     "writes",
+     "Paper#99415"
+    ],
+    [
+     "Paper#99415",
+     "written_by",
+     "Thomas Hayter"
+    ],
+    [
+     "Thomas Hayter",
+     "writes",
+     "Paper#99415"
+    ],
+    [
+     "Paper#99415",
+     "published_in",
+     "Computer Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.25,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-014",
+   "hop": 4,
+   "start": "Robert T. Clancy",
+   "start_id": 1126071,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069,
+    2000071
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Robert T. Clancy",
+     "writes",
+     "Paper#91318"
+    ],
+    [
+     "Paper#91318",
+     "written_by",
+     "Kevin D. Drucker"
+    ],
+    [
+     "Kevin D. Drucker",
+     "writes",
+     "Paper#91318"
+    ],
+    [
+     "Paper#91318",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 5,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-015",
+   "hop": 4,
+   "start": "Judy Brewer",
+   "start_id": 1125476,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Judy Brewer",
+     "writes",
+     "Paper#90973"
+    ],
+    [
+     "Paper#90973",
+     "written_by",
+     "Judy Brewer"
+    ],
+    [
+     "Judy Brewer",
+     "writes",
+     "Paper#90973"
+    ],
+    [
+     "Paper#90973",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-016",
+   "hop": 4,
+   "start": "Bernard Robertson",
+   "start_id": 1144232,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computers & Security",
+   "answer_id": 2000079,
+   "answer_ids": [
+    2000079
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Bernard Robertson",
+     "writes",
+     "Paper#108480"
+    ],
+    [
+     "Paper#108480",
+     "written_by",
+     "Bernard Robertson"
+    ],
+    [
+     "Bernard Robertson",
+     "writes",
+     "Paper#108480"
+    ],
+    [
+     "Paper#108480",
+     "published_in",
+     "Computers & Security"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-017",
+   "hop": 4,
+   "start": "David Knapp",
+   "start_id": 1163520,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "MICRO",
+   "answer_id": 2000100,
+   "answer_ids": [
+    2000100
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "David Knapp",
+     "writes",
+     "Paper#126877"
+    ],
+    [
+     "Paper#126877",
+     "written_by",
+     "David Knapp"
+    ],
+    [
+     "David Knapp",
+     "writes",
+     "Paper#126877"
+    ],
+    [
+     "Paper#126877",
+     "published_in",
+     "MICRO"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.25,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-018",
+   "hop": 4,
+   "start": "GongXin Yu",
+   "start_id": 1100002,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "BMC Bioinformatics",
+   "answer_id": 2000049,
+   "answer_ids": [
+    2000049
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "GongXin Yu",
+     "writes",
+     "Paper#71850"
+    ],
+    [
+     "Paper#71850",
+     "written_by",
+     "GongXin Yu"
+    ],
+    [
+     "GongXin Yu",
+     "writes",
+     "Paper#71850"
+    ],
+    [
+     "Paper#71850",
+     "published_in",
+     "BMC Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-019",
+   "hop": 4,
+   "start": "Jan Späth",
+   "start_id": 1127633,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Jan Späth",
+     "writes",
+     "Paper#92387"
+    ],
+    [
+     "Paper#92387",
+     "written_by",
+     "Jan Späth"
+    ],
+    [
+     "Jan Späth",
+     "writes",
+     "Paper#92387"
+    ],
+    [
+     "Paper#92387",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-020",
+   "hop": 4,
+   "start": "John Oglesby",
+   "start_id": 1015337,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Speech Communication",
+   "answer_id": 2000005,
+   "answer_ids": [
+    2000005
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "John Oglesby",
+     "writes",
+     "Paper#10559"
+    ],
+    [
+     "Paper#10559",
+     "written_by",
+     "John Oglesby"
+    ],
+    [
+     "John Oglesby",
+     "writes",
+     "Paper#10559"
+    ],
+    [
+     "Paper#10559",
+     "published_in",
+     "Speech Communication"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-021",
+   "hop": 4,
+   "start": "David A. van Veldhuizen",
+   "start_id": 1036387,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Evolutionary Computation",
+   "answer_id": 2000023,
+   "answer_ids": [
+    2000023
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "David A. van Veldhuizen",
+     "writes",
+     "Paper#26322"
+    ],
+    [
+     "Paper#26322",
+     "written_by",
+     "David A. van Veldhuizen"
+    ],
+    [
+     "David A. van Veldhuizen",
+     "writes",
+     "Paper#26322"
+    ],
+    [
+     "Paper#26322",
+     "published_in",
+     "Evolutionary Computation"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.25,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-022",
+   "hop": 4,
+   "start": "Cheolho Yoon",
+   "start_id": 1030807,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Information and Management",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Cheolho Yoon",
+     "writes",
+     "Paper#22198"
+    ],
+    [
+     "Paper#22198",
+     "written_by",
+     "Cheolho Yoon"
+    ],
+    [
+     "Cheolho Yoon",
+     "writes",
+     "Paper#22198"
+    ],
+    [
+     "Paper#22198",
+     "published_in",
+     "Information and Management"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-023",
+   "hop": 4,
+   "start": "Jeremy Tucker",
+   "start_id": 1127764,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Jeremy Tucker",
+     "writes",
+     "Paper#92488"
+    ],
+    [
+     "Paper#92488",
+     "written_by",
+     "Jeremy Tucker"
+    ],
+    [
+     "Jeremy Tucker",
+     "writes",
+     "Paper#92488"
+    ],
+    [
+     "Paper#92488",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-024",
+   "hop": 4,
+   "start": "Valdis Berzins",
+   "start_id": 1147722,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Journal of Systems and Software",
+   "answer_id": 2000086,
+   "answer_ids": [
+    2000086
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Valdis Berzins",
+     "writes",
+     "Paper#111432"
+    ],
+    [
+     "Paper#111432",
+     "written_by",
+     "Valdis Berzins"
+    ],
+    [
+     "Valdis Berzins",
+     "writes",
+     "Paper#111432"
+    ],
+    [
+     "Paper#111432",
+     "published_in",
+     "Journal of Systems and Software"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-025",
+   "hop": 4,
+   "start": "Xiaofan Zhao",
+   "start_id": 1128008,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Xiaofan Zhao",
+     "writes",
+     "Paper#92676"
+    ],
+    [
+     "Paper#92676",
+     "written_by",
+     "Xiaofan Zhao"
+    ],
+    [
+     "Xiaofan Zhao",
+     "writes",
+     "Paper#92676"
+    ],
+    [
+     "Paper#92676",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-026",
+   "hop": 4,
+   "start": "John R. Tippetts",
+   "start_id": 1024163,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "The Visual Computer",
+   "answer_id": 2000008,
+   "answer_ids": [
+    2000008
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "John R. Tippetts",
+     "writes",
+     "Paper#17556"
+    ],
+    [
+     "Paper#17556",
+     "written_by",
+     "John R. Tippetts"
+    ],
+    [
+     "John R. Tippetts",
+     "writes",
+     "Paper#17556"
+    ],
+    [
+     "Paper#17556",
+     "published_in",
+     "The Visual Computer"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-027",
+   "hop": 4,
+   "start": "Martin Wilhelm",
+   "start_id": 1127864,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Martin Wilhelm",
+     "writes",
+     "Paper#92568"
+    ],
+    [
+     "Paper#92568",
+     "written_by",
+     "Martin Wilhelm"
+    ],
+    [
+     "Martin Wilhelm",
+     "writes",
+     "Paper#92568"
+    ],
+    [
+     "Paper#92568",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-028",
+   "hop": 4,
+   "start": "David J. Williams",
+   "start_id": 1137066,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Communications",
+   "answer_id": 2000071,
+   "answer_ids": [
+    2000071
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "David J. Williams",
+     "writes",
+     "Paper#100823"
+    ],
+    [
+     "Paper#100823",
+     "written_by",
+     "Kevin J. Tilley"
+    ],
+    [
+     "Kevin J. Tilley",
+     "writes",
+     "Paper#100823"
+    ],
+    [
+     "Paper#100823",
+     "published_in",
+     "Computer Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.25,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h4-029",
+   "hop": 4,
+   "start": "Jeffrey Bardzell",
+   "start_id": 1072455,
+   "rel_seq": [
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Interacting with Computers",
+   "answer_id": 2000044,
+   "answer_ids": [
+    2000044
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Jeffrey Bardzell",
+     "writes",
+     "Paper#58811"
+    ],
+    [
+     "Paper#58811",
+     "written_by",
+     "Jeffrey Bardzell"
+    ],
+    [
+     "Jeffrey Bardzell",
+     "writes",
+     "Paper#58811"
+    ],
+    [
+     "Paper#58811",
+     "published_in",
+     "Interacting with Computers"
+    ]
+   ],
+   "type_seq": [
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-000",
+   "hop": 5,
+   "start": "Paper#22437",
+   "start_id": 22437,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Information and Management",
+   "answer_id": 2000017,
+   "answer_ids": [
+    2000017
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#22437",
+     "written_by",
+     "P. J. Dixon"
+    ],
+    [
+     "P. J. Dixon",
+     "writes",
+     "Paper#22394"
+    ],
+    [
+     "Paper#22394",
+     "written_by",
+     "P. J. Dixon"
+    ],
+    [
+     "P. J. Dixon",
+     "writes",
+     "Paper#22394"
+    ],
+    [
+     "Paper#22394",
+     "published_in",
+     "Information and Management"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-001",
+   "hop": 5,
+   "start": "Paper#113201",
+   "start_id": 113201,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Journal of Systems and Software",
+   "answer_id": 2000086,
+   "answer_ids": [
+    2000086
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#113201",
+     "written_by",
+     "Michael R. Wick"
+    ],
+    [
+     "Michael R. Wick",
+     "writes",
+     "Paper#113201"
+    ],
+    [
+     "Paper#113201",
+     "written_by",
+     "Michael R. Wick"
+    ],
+    [
+     "Michael R. Wick",
+     "writes",
+     "Paper#113201"
+    ],
+    [
+     "Paper#113201",
+     "published_in",
+     "Journal of Systems and Software"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-002",
+   "hop": 5,
+   "start": "Paper#82899",
+   "start_id": 82899,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Formal Methods in System Design",
+   "answer_id": 2000061,
+   "answer_ids": [
+    2000061
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#82899",
+     "written_by",
+     "David M. Russinoff"
+    ],
+    [
+     "David M. Russinoff",
+     "writes",
+     "Paper#82897"
+    ],
+    [
+     "Paper#82897",
+     "written_by",
+     "David M. Russinoff"
+    ],
+    [
+     "David M. Russinoff",
+     "writes",
+     "Paper#82897"
+    ],
+    [
+     "Paper#82897",
+     "published_in",
+     "Formal Methods in System Design"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-003",
+   "hop": 5,
+   "start": "Paper#115084",
+   "start_id": 115084,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Software Quality Journal",
+   "answer_id": 2000090,
+   "answer_ids": [
+    2000090
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#115084",
+     "written_by",
+     "John A. Hoxmeier"
+    ],
+    [
+     "John A. Hoxmeier",
+     "writes",
+     "Paper#115084"
+    ],
+    [
+     "Paper#115084",
+     "written_by",
+     "John A. Hoxmeier"
+    ],
+    [
+     "John A. Hoxmeier",
+     "writes",
+     "Paper#115084"
+    ],
+    [
+     "Paper#115084",
+     "published_in",
+     "Software Quality Journal"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-004",
+   "hop": 5,
+   "start": "Paper#43632",
+   "start_id": 43632,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Fuzzy Sets and Systems",
+   "answer_id": 2000034,
+   "answer_ids": [
+    2000034
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#43632",
+     "written_by",
+     "Loredana Biacino"
+    ],
+    [
+     "Loredana Biacino",
+     "writes",
+     "Paper#43632"
+    ],
+    [
+     "Paper#43632",
+     "written_by",
+     "Loredana Biacino"
+    ],
+    [
+     "Loredana Biacino",
+     "writes",
+     "Paper#43632"
+    ],
+    [
+     "Paper#43632",
+     "published_in",
+     "Fuzzy Sets and Systems"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-005",
+   "hop": 5,
+   "start": "Paper#21366",
+   "start_id": 21366,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Distributed and Parallel Databases",
+   "answer_id": 2000016,
+   "answer_ids": [
+    2000016
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#21366",
+     "written_by",
+     "Maria Theodoridou"
+    ],
+    [
+     "Maria Theodoridou",
+     "writes",
+     "Paper#21366"
+    ],
+    [
+     "Paper#21366",
+     "written_by",
+     "Maria Theodoridou"
+    ],
+    [
+     "Maria Theodoridou",
+     "writes",
+     "Paper#21366"
+    ],
+    [
+     "Paper#21366",
+     "published_in",
+     "Distributed and Parallel Databases"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 2.6,
+   "distract_max": 5,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-006",
+   "hop": 5,
+   "start": "Paper#114074",
+   "start_id": 114074,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Journal of Systems and Software",
+   "answer_id": 2000086,
+   "answer_ids": [
+    2000086
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#114074",
+     "written_by",
+     "Matthieu Petit"
+    ],
+    [
+     "Matthieu Petit",
+     "writes",
+     "Paper#114074"
+    ],
+    [
+     "Paper#114074",
+     "written_by",
+     "Matthieu Petit"
+    ],
+    [
+     "Matthieu Petit",
+     "writes",
+     "Paper#114074"
+    ],
+    [
+     "Paper#114074",
+     "published_in",
+     "Journal of Systems and Software"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-007",
+   "hop": 5,
+   "start": "Paper#46266",
+   "start_id": 46266,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Pattern Recognition Letters",
+   "answer_id": 2000036,
+   "answer_ids": [
+    2000036
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#46266",
+     "written_by",
+     "Chung Lin Huang"
+    ],
+    [
+     "Chung Lin Huang",
+     "writes",
+     "Paper#46266"
+    ],
+    [
+     "Paper#46266",
+     "written_by",
+     "Chung Lin Huang"
+    ],
+    [
+     "Chung Lin Huang",
+     "writes",
+     "Paper#46266"
+    ],
+    [
+     "Paper#46266",
+     "published_in",
+     "Pattern Recognition Letters"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-008",
+   "hop": 5,
+   "start": "Paper#44399",
+   "start_id": 44399,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Fuzzy Sets and Systems",
+   "answer_id": 2000034,
+   "answer_ids": [
+    2000034
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#44399",
+     "written_by",
+     "Ashraf Labib"
+    ],
+    [
+     "Ashraf Labib",
+     "writes",
+     "Paper#44399"
+    ],
+    [
+     "Paper#44399",
+     "written_by",
+     "Ashraf Labib"
+    ],
+    [
+     "Ashraf Labib",
+     "writes",
+     "Paper#44399"
+    ],
+    [
+     "Paper#44399",
+     "published_in",
+     "Fuzzy Sets and Systems"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-009",
+   "hop": 5,
+   "start": "Paper#74406",
+   "start_id": 74406,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "PLoS Computational Biology",
+   "answer_id": 2000051,
+   "answer_ids": [
+    2000051
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#74406",
+     "written_by",
+     "Elodie Mucher"
+    ],
+    [
+     "Elodie Mucher",
+     "writes",
+     "Paper#74406"
+    ],
+    [
+     "Paper#74406",
+     "written_by",
+     "Elodie Mucher"
+    ],
+    [
+     "Elodie Mucher",
+     "writes",
+     "Paper#74406"
+    ],
+    [
+     "Paper#74406",
+     "published_in",
+     "PLoS Computational Biology"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 3.0,
+   "distract_max": 6,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-010",
+   "hop": 5,
+   "start": "Paper#76150",
+   "start_id": 76150,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Robotics",
+   "answer_id": 2000052,
+   "answer_ids": [
+    2000052
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#76150",
+     "written_by",
+     "Vittaldas V. Prabhu"
+    ],
+    [
+     "Vittaldas V. Prabhu",
+     "writes",
+     "Paper#76150"
+    ],
+    [
+     "Paper#76150",
+     "written_by",
+     "Vittaldas V. Prabhu"
+    ],
+    [
+     "Vittaldas V. Prabhu",
+     "writes",
+     "Paper#76150"
+    ],
+    [
+     "Paper#76150",
+     "published_in",
+     "IEEE Transactions on Robotics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-011",
+   "hop": 5,
+   "start": "Paper#62482",
+   "start_id": 62482,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Bioinformatics",
+   "answer_id": 2000048,
+   "answer_ids": [
+    2000048
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#62482",
+     "written_by",
+     "Åsa Pérez-Bercoff"
+    ],
+    [
+     "Åsa Pérez-Bercoff",
+     "writes",
+     "Paper#62482"
+    ],
+    [
+     "Paper#62482",
+     "written_by",
+     "Åsa Pérez-Bercoff"
+    ],
+    [
+     "Åsa Pérez-Bercoff",
+     "writes",
+     "Paper#62482"
+    ],
+    [
+     "Paper#62482",
+     "published_in",
+     "Bioinformatics"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-012",
+   "hop": 5,
+   "start": "Paper#59719",
+   "start_id": 59719,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Personal and Ubiquitous Computing",
+   "answer_id": 2000046,
+   "answer_ids": [
+    2000046
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#59719",
+     "written_by",
+     "John Krumm"
+    ],
+    [
+     "John Krumm",
+     "writes",
+     "Paper#59719"
+    ],
+    [
+     "Paper#59719",
+     "written_by",
+     "John Krumm"
+    ],
+    [
+     "John Krumm",
+     "writes",
+     "Paper#59719"
+    ],
+    [
+     "Paper#59719",
+     "published_in",
+     "Personal and Ubiquitous Computing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-013",
+   "hop": 5,
+   "start": "Paper#36828",
+   "start_id": 36828,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Pattern Recognition",
+   "answer_id": 2000029,
+   "answer_ids": [
+    2000029
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#36828",
+     "written_by",
+     "Xiao-Hong Wu"
+    ],
+    [
+     "Xiao-Hong Wu",
+     "writes",
+     "Paper#36828"
+    ],
+    [
+     "Paper#36828",
+     "written_by",
+     "Xiao-Hong Wu"
+    ],
+    [
+     "Xiao-Hong Wu",
+     "writes",
+     "Paper#36828"
+    ],
+    [
+     "Paper#36828",
+     "published_in",
+     "Pattern Recognition"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-014",
+   "hop": 5,
+   "start": "Paper#84445",
+   "start_id": 84445,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Mathematical Structures in Computer Science",
+   "answer_id": 2000063,
+   "answer_ids": [
+    2000063
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#84445",
+     "written_by",
+     "Aurelio Carboni Peter Johnstone"
+    ],
+    [
+     "Aurelio Carboni Peter Johnstone",
+     "writes",
+     "Paper#84445"
+    ],
+    [
+     "Paper#84445",
+     "written_by",
+     "Aurelio Carboni Peter Johnstone"
+    ],
+    [
+     "Aurelio Carboni Peter Johnstone",
+     "writes",
+     "Paper#84445"
+    ],
+    [
+     "Paper#84445",
+     "published_in",
+     "Mathematical Structures in Computer Science"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-015",
+   "hop": 5,
+   "start": "Paper#81369",
+   "start_id": 81369,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Algorithmica",
+   "answer_id": 2000059,
+   "answer_ids": [
+    2000059
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#81369",
+     "written_by",
+     "Walter Meyer"
+    ],
+    [
+     "Walter Meyer",
+     "writes",
+     "Paper#81369"
+    ],
+    [
+     "Paper#81369",
+     "written_by",
+     "Walter Meyer"
+    ],
+    [
+     "Walter Meyer",
+     "writes",
+     "Paper#81369"
+    ],
+    [
+     "Paper#81369",
+     "published_in",
+     "Algorithmica"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-016",
+   "hop": 5,
+   "start": "Paper#93804",
+   "start_id": 93804,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#93804",
+     "written_by",
+     "Ren-Song Ko"
+    ],
+    [
+     "Ren-Song Ko",
+     "writes",
+     "Paper#93804"
+    ],
+    [
+     "Paper#93804",
+     "written_by",
+     "Ren-Song Ko"
+    ],
+    [
+     "Ren-Song Ko",
+     "writes",
+     "Paper#93804"
+    ],
+    [
+     "Paper#93804",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-017",
+   "hop": 5,
+   "start": "Paper#12598",
+   "start_id": 12598,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Discrete & Computational Geometry",
+   "answer_id": 2000006,
+   "answer_ids": [
+    2000006
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#12598",
+     "written_by",
+     "Dusko Jojic"
+    ],
+    [
+     "Dusko Jojic",
+     "writes",
+     "Paper#12598"
+    ],
+    [
+     "Paper#12598",
+     "written_by",
+     "Dusko Jojic"
+    ],
+    [
+     "Dusko Jojic",
+     "writes",
+     "Paper#12598"
+    ],
+    [
+     "Paper#12598",
+     "published_in",
+     "Discrete & Computational Geometry"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-018",
+   "hop": 5,
+   "start": "Paper#94261",
+   "start_id": 94261,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Computer Networks",
+   "answer_id": 2000069,
+   "answer_ids": [
+    2000069
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#94261",
+     "written_by",
+     "Sheng-Wei Wang"
+    ],
+    [
+     "Sheng-Wei Wang",
+     "writes",
+     "Paper#94261"
+    ],
+    [
+     "Paper#94261",
+     "written_by",
+     "Sheng-Wei Wang"
+    ],
+    [
+     "Sheng-Wei Wang",
+     "writes",
+     "Paper#94261"
+    ],
+    [
+     "Paper#94261",
+     "published_in",
+     "Computer Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-019",
+   "hop": 5,
+   "start": "Paper#13487",
+   "start_id": 13487,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Signal Processing",
+   "answer_id": 2000007,
+   "answer_ids": [
+    2000007
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#13487",
+     "written_by",
+     "Alexander Potchinkov"
+    ],
+    [
+     "Alexander Potchinkov",
+     "writes",
+     "Paper#13487"
+    ],
+    [
+     "Paper#13487",
+     "written_by",
+     "Alexander Potchinkov"
+    ],
+    [
+     "Alexander Potchinkov",
+     "writes",
+     "Paper#13487"
+    ],
+    [
+     "Paper#13487",
+     "published_in",
+     "Signal Processing"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-020",
+   "hop": 5,
+   "start": "Paper#12484",
+   "start_id": 12484,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Discrete & Computational Geometry",
+   "answer_id": 2000006,
+   "answer_ids": [
+    2000006
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#12484",
+     "written_by",
+     "Jason M. Ribando"
+    ],
+    [
+     "Jason M. Ribando",
+     "writes",
+     "Paper#12484"
+    ],
+    [
+     "Paper#12484",
+     "written_by",
+     "Jason M. Ribando"
+    ],
+    [
+     "Jason M. Ribando",
+     "writes",
+     "Paper#12484"
+    ],
+    [
+     "Paper#12484",
+     "published_in",
+     "Discrete & Computational Geometry"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-021",
+   "hop": 5,
+   "start": "Paper#19096",
+   "start_id": 19096,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Data Compression Conference",
+   "answer_id": 2000009,
+   "answer_ids": [
+    2000009
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#19096",
+     "written_by",
+     "Murari Srinivasan"
+    ],
+    [
+     "Murari Srinivasan",
+     "writes",
+     "Paper#19096"
+    ],
+    [
+     "Paper#19096",
+     "written_by",
+     "Murari Srinivasan"
+    ],
+    [
+     "Murari Srinivasan",
+     "writes",
+     "Paper#19096"
+    ],
+    [
+     "Paper#19096",
+     "published_in",
+     "Data Compression Conference"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-022",
+   "hop": 5,
+   "start": "Paper#55918",
+   "start_id": 55918,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Neural Computation",
+   "answer_id": 2000038,
+   "answer_ids": [
+    2000038
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#55918",
+     "written_by",
+     "Mouhamad Jradeh"
+    ],
+    [
+     "Mouhamad Jradeh",
+     "writes",
+     "Paper#55918"
+    ],
+    [
+     "Paper#55918",
+     "written_by",
+     "Mouhamad Jradeh"
+    ],
+    [
+     "Mouhamad Jradeh",
+     "writes",
+     "Paper#55918"
+    ],
+    [
+     "Paper#55918",
+     "published_in",
+     "Neural Computation"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-023",
+   "hop": 5,
+   "start": "Paper#32400",
+   "start_id": 32400,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Neural Networks",
+   "answer_id": 2000028,
+   "answer_ids": [
+    2000028
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#32400",
+     "written_by",
+     "Juan Carlos Gomez"
+    ],
+    [
+     "Juan Carlos Gomez",
+     "writes",
+     "Paper#32400"
+    ],
+    [
+     "Paper#32400",
+     "written_by",
+     "Juan Carlos Gomez"
+    ],
+    [
+     "Juan Carlos Gomez",
+     "writes",
+     "Paper#32400"
+    ],
+    [
+     "Paper#32400",
+     "published_in",
+     "Neural Networks"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-024",
+   "hop": 5,
+   "start": "Paper#78920",
+   "start_id": 78920,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Information Technology in Bio",
+   "answer_id": 2000056,
+   "answer_ids": [
+    2000056
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#78920",
+     "written_by",
+     "Niilo Saranummi"
+    ],
+    [
+     "Niilo Saranummi",
+     "writes",
+     "Paper#78720"
+    ],
+    [
+     "Paper#78720",
+     "written_by",
+     "Niilo Saranummi"
+    ],
+    [
+     "Niilo Saranummi",
+     "writes",
+     "Paper#78720"
+    ],
+    [
+     "Paper#78720",
+     "published_in",
+     "IEEE Transactions on Information Technology in Bio"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-025",
+   "hop": 5,
+   "start": "Paper#33087",
+   "start_id": 33087,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Pattern Recognition",
+   "answer_id": 2000029,
+   "answer_ids": [
+    2000029
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#33087",
+     "written_by",
+     "Flemming Barlach"
+    ],
+    [
+     "Flemming Barlach",
+     "writes",
+     "Paper#33085"
+    ],
+    [
+     "Paper#33085",
+     "written_by",
+     "Flemming Barlach"
+    ],
+    [
+     "Flemming Barlach",
+     "writes",
+     "Paper#33085"
+    ],
+    [
+     "Paper#33085",
+     "published_in",
+     "Pattern Recognition"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-026",
+   "hop": 5,
+   "start": "Paper#111396",
+   "start_id": 111396,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Journal of Systems and Software",
+   "answer_id": 2000086,
+   "answer_ids": [
+    2000086,
+    2000099
+   ],
+   "n_finals": 2,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#111396",
+     "written_by",
+     "Bassel R. Arafeh"
+    ],
+    [
+     "Bassel R. Arafeh",
+     "writes",
+     "Paper#111396"
+    ],
+    [
+     "Paper#111396",
+     "written_by",
+     "Bassel R. Arafeh"
+    ],
+    [
+     "Bassel R. Arafeh",
+     "writes",
+     "Paper#111396"
+    ],
+    [
+     "Paper#111396",
+     "published_in",
+     "Journal of Systems and Software"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-027",
+   "hop": 5,
+   "start": "Paper#45022",
+   "start_id": 45022,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Machine Translation",
+   "answer_id": 2000035,
+   "answer_ids": [
+    2000035
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#45022",
+     "written_by",
+     "Christine Defrise"
+    ],
+    [
+     "Christine Defrise",
+     "writes",
+     "Paper#45022"
+    ],
+    [
+     "Paper#45022",
+     "written_by",
+     "Christine Defrise"
+    ],
+    [
+     "Christine Defrise",
+     "writes",
+     "Paper#45022"
+    ],
+    [
+     "Paper#45022",
+     "published_in",
+     "Machine Translation"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-028",
+   "hop": 5,
+   "start": "Paper#55850",
+   "start_id": 55850,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "Neural Computation",
+   "answer_id": 2000038,
+   "answer_ids": [
+    2000038
+   ],
+   "n_finals": 1,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#55850",
+     "written_by",
+     "Georgi S. Medvedev"
+    ],
+    [
+     "Georgi S. Medvedev",
+     "writes",
+     "Paper#55850"
+    ],
+    [
+     "Paper#55850",
+     "written_by",
+     "Georgi S. Medvedev"
+    ],
+    [
+     "Georgi S. Medvedev",
+     "writes",
+     "Paper#55850"
+    ],
+    [
+     "Paper#55850",
+     "published_in",
+     "Neural Computation"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "aminer-h5-029",
+   "hop": 5,
+   "start": "Paper#124452",
+   "start_id": 124452,
+   "rel_seq": [
+    "written_by",
+    "writes",
+    "written_by",
+    "writes",
+    "published_in"
+   ],
+   "protocol": "open",
+   "answer": "IEEE Transactions on Wireless Communications",
+   "answer_id": 2000070,
+   "answer_ids": [
+    2000070,
+    2000074,
+    2000098
+   ],
+   "n_finals": 3,
+   "answer_type": "Conference",
+   "gt_path": [
+    [
+     "Paper#124452",
+     "written_by",
+     "Victor M. Elizondo"
+    ],
+    [
+     "Victor M. Elizondo",
+     "writes",
+     "Paper#124452"
+    ],
+    [
+     "Paper#124452",
+     "written_by",
+     "Milan S. Derpich"
+    ],
+    [
+     "Milan S. Derpich",
+     "writes",
+     "Paper#97582"
+    ],
+    [
+     "Paper#97582",
+     "published_in",
+     "IEEE Transactions on Wireless Communications"
+    ]
+   ],
+   "type_seq": [
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "written_by",
+     "Author"
+    ],
+    [
+     "writes",
+     "Paper"
+    ],
+    [
+     "published_in",
+     "Conference"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  }
+ ]
+}

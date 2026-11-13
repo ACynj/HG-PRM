@@ -1,0 +1,10055 @@
+{
+ "source": "UMLS (dongwookim-ml/kg-data, R-GCN benchmark)",
+ "schema": [
+  [
+   "Activities_&_Behaviors",
+   "affects",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "associated_with",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "associated_with",
+   "Disorders"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "associated_with",
+   "Geographic_Areas"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "associated_with",
+   "Living_Beings"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "associated_with",
+   "Occupations"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "associated_with",
+   "Physiology"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "conceptual_part_of",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "conceptually_related_to",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "isa",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "manifestation_of",
+   "Disorders"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "manifestation_of",
+   "Physiology"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "method_of",
+   "Occupations"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "method_of",
+   "Procedures"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "process_of",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Activities_&_Behaviors",
+   "result_of",
+   "Physiology"
+  ],
+  [
+   "Anatomy",
+   "adjacent_to",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Anatomy",
+   "branch_of",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "causes",
+   "Disorders"
+  ],
+  [
+   "Anatomy",
+   "conceptual_part_of",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "connected_to",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "consists_of",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "consists_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Anatomy",
+   "contains",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "derivative_of",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "developmental_form_of",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "ingredient_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Anatomy",
+   "interconnects",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "isa",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Anatomy",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Anatomy",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Anatomy",
+   "location_of",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "location_of",
+   "Disorders"
+  ],
+  [
+   "Anatomy",
+   "location_of",
+   "Living_Beings"
+  ],
+  [
+   "Anatomy",
+   "location_of",
+   "Phenomena"
+  ],
+  [
+   "Anatomy",
+   "location_of",
+   "Physiology"
+  ],
+  [
+   "Anatomy",
+   "location_of",
+   "Procedures"
+  ],
+  [
+   "Anatomy",
+   "part_of",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "part_of",
+   "Living_Beings"
+  ],
+  [
+   "Anatomy",
+   "produces",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "produces",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Anatomy",
+   "result_of",
+   "Physiology"
+  ],
+  [
+   "Anatomy",
+   "surrounds",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "traverses",
+   "Anatomy"
+  ],
+  [
+   "Anatomy",
+   "tributary_of",
+   "Anatomy"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "affects",
+   "Disorders"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "affects",
+   "Phenomena"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "associated_with",
+   "Living_Beings"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "causes",
+   "Disorders"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "complicates",
+   "Disorders"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "complicates",
+   "Phenomena"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "complicates",
+   "Physiology"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "consists_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "diagnoses",
+   "Disorders"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "disrupts",
+   "Anatomy"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "disrupts",
+   "Genes_&_Molecular_Sequences"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "disrupts",
+   "Physiology"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "indicates",
+   "Disorders"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "indicates",
+   "Living_Beings"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "ingredient_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "interacts_with",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "isa",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "prevents",
+   "Disorders"
+  ],
+  [
+   "Chemicals_&_Drugs",
+   "treats",
+   "Disorders"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "affects",
+   "Living_Beings"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "affects",
+   "Organizations"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "conceptual_part_of",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "conceptual_part_of",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "conceptual_part_of",
+   "Physiology"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "conceptual_part_of",
+   "Procedures"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "evaluation_of",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "evaluation_of",
+   "Procedures"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "measurement_of",
+   "Anatomy"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "measurement_of",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "measurement_of",
+   "Genes_&_Molecular_Sequences"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "measurement_of",
+   "Geographic_Areas"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "measurement_of",
+   "Physiology"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "property_of",
+   "Living_Beings"
+  ],
+  [
+   "Concepts_&_Ideas",
+   "result_of",
+   "Physiology"
+  ],
+  [
+   "Devices",
+   "causes",
+   "Disorders"
+  ],
+  [
+   "Devices",
+   "contains",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Devices",
+   "isa",
+   "Devices"
+  ],
+  [
+   "Devices",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Devices",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Devices",
+   "prevents",
+   "Disorders"
+  ],
+  [
+   "Devices",
+   "treats",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "affects",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Disorders",
+   "affects",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "affects",
+   "Living_Beings"
+  ],
+  [
+   "Disorders",
+   "affects",
+   "Phenomena"
+  ],
+  [
+   "Disorders",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Disorders",
+   "associated_with",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "associated_with",
+   "Physiology"
+  ],
+  [
+   "Disorders",
+   "co-occurs_with",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "complicates",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "conceptually_related_to",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "degree_of",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "diagnoses",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "disrupts",
+   "Anatomy"
+  ],
+  [
+   "Disorders",
+   "disrupts",
+   "Genes_&_Molecular_Sequences"
+  ],
+  [
+   "Disorders",
+   "disrupts",
+   "Physiology"
+  ],
+  [
+   "Disorders",
+   "evaluation_of",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "evaluation_of",
+   "Phenomena"
+  ],
+  [
+   "Disorders",
+   "evaluation_of",
+   "Physiology"
+  ],
+  [
+   "Disorders",
+   "isa",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Disorders",
+   "isa",
+   "Anatomy"
+  ],
+  [
+   "Disorders",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Disorders",
+   "isa",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Disorders",
+   "isa",
+   "Phenomena"
+  ],
+  [
+   "Disorders",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Disorders",
+   "location_of",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "location_of",
+   "Living_Beings"
+  ],
+  [
+   "Disorders",
+   "manifestation_of",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "manifestation_of",
+   "Phenomena"
+  ],
+  [
+   "Disorders",
+   "manifestation_of",
+   "Physiology"
+  ],
+  [
+   "Disorders",
+   "occurs_in",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "occurs_in",
+   "Living_Beings"
+  ],
+  [
+   "Disorders",
+   "part_of",
+   "Living_Beings"
+  ],
+  [
+   "Disorders",
+   "precedes",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "process_of",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "process_of",
+   "Living_Beings"
+  ],
+  [
+   "Disorders",
+   "process_of",
+   "Phenomena"
+  ],
+  [
+   "Disorders",
+   "process_of",
+   "Physiology"
+  ],
+  [
+   "Disorders",
+   "produces",
+   "Anatomy"
+  ],
+  [
+   "Disorders",
+   "produces",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Disorders",
+   "result_of",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Disorders",
+   "result_of",
+   "Disorders"
+  ],
+  [
+   "Disorders",
+   "result_of",
+   "Phenomena"
+  ],
+  [
+   "Disorders",
+   "result_of",
+   "Physiology"
+  ],
+  [
+   "Disorders",
+   "result_of",
+   "Procedures"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "carries_out",
+   "Physiology"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "consists_of",
+   "Genes_&_Molecular_Sequences"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "contains",
+   "Anatomy"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "isa",
+   "Anatomy"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "isa",
+   "Genes_&_Molecular_Sequences"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "location_of",
+   "Disorders"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "location_of",
+   "Living_Beings"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "location_of",
+   "Phenomena"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "location_of",
+   "Physiology"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "part_of",
+   "Anatomy"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "part_of",
+   "Genes_&_Molecular_Sequences"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "part_of",
+   "Living_Beings"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "produces",
+   "Anatomy"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "produces",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "property_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "property_of",
+   "Genes_&_Molecular_Sequences"
+  ],
+  [
+   "Genes_&_Molecular_Sequences",
+   "result_of",
+   "Physiology"
+  ],
+  [
+   "Geographic_Areas",
+   "associated_with",
+   "Disorders"
+  ],
+  [
+   "Geographic_Areas",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Geographic_Areas",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Geographic_Areas",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Geographic_Areas",
+   "result_of",
+   "Physiology"
+  ],
+  [
+   "Living_Beings",
+   "associated_with",
+   "Disorders"
+  ],
+  [
+   "Living_Beings",
+   "causes",
+   "Disorders"
+  ],
+  [
+   "Living_Beings",
+   "diagnoses",
+   "Disorders"
+  ],
+  [
+   "Living_Beings",
+   "exhibits",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Living_Beings",
+   "interacts_with",
+   "Living_Beings"
+  ],
+  [
+   "Living_Beings",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Living_Beings",
+   "isa",
+   "Living_Beings"
+  ],
+  [
+   "Living_Beings",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Living_Beings",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Living_Beings",
+   "location_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Living_Beings",
+   "manages",
+   "Organizations"
+  ],
+  [
+   "Living_Beings",
+   "performs",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Living_Beings",
+   "performs",
+   "Procedures"
+  ],
+  [
+   "Living_Beings",
+   "practices",
+   "Occupations"
+  ],
+  [
+   "Living_Beings",
+   "produces",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Living_Beings",
+   "produces",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Living_Beings",
+   "produces",
+   "Devices"
+  ],
+  [
+   "Living_Beings",
+   "produces",
+   "Objects"
+  ],
+  [
+   "Living_Beings",
+   "treats",
+   "Living_Beings"
+  ],
+  [
+   "Living_Beings",
+   "uses",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Living_Beings",
+   "uses",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Living_Beings",
+   "uses",
+   "Devices"
+  ],
+  [
+   "Living_Beings",
+   "uses",
+   "Objects"
+  ],
+  [
+   "Objects",
+   "affects",
+   "Disorders"
+  ],
+  [
+   "Objects",
+   "affects",
+   "Phenomena"
+  ],
+  [
+   "Objects",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Objects",
+   "causes",
+   "Disorders"
+  ],
+  [
+   "Objects",
+   "ingredient_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Objects",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Objects",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Occupations",
+   "conceptual_part_of",
+   "Occupations"
+  ],
+  [
+   "Occupations",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Occupations",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Occupations",
+   "isa",
+   "Occupations"
+  ],
+  [
+   "Occupations",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Organizations",
+   "carries_out",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Organizations",
+   "carries_out",
+   "Procedures"
+  ],
+  [
+   "Organizations",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Organizations",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Organizations",
+   "isa",
+   "Organizations"
+  ],
+  [
+   "Organizations",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Organizations",
+   "location_of",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Organizations",
+   "location_of",
+   "Procedures"
+  ],
+  [
+   "Organizations",
+   "manages",
+   "Living_Beings"
+  ],
+  [
+   "Organizations",
+   "produces",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Phenomena",
+   "affects",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "affects",
+   "Living_Beings"
+  ],
+  [
+   "Phenomena",
+   "affects",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Phenomena",
+   "associated_with",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "co-occurs_with",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "co-occurs_with",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "conceptual_part_of",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "evaluation_of",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "evaluation_of",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "evaluation_of",
+   "Physiology"
+  ],
+  [
+   "Phenomena",
+   "indicates",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "indicates",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "indicates",
+   "Physiology"
+  ],
+  [
+   "Phenomena",
+   "isa",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Phenomena",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Phenomena",
+   "isa",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Phenomena",
+   "isa",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Phenomena",
+   "manifestation_of",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "manifestation_of",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "manifestation_of",
+   "Physiology"
+  ],
+  [
+   "Phenomena",
+   "measurement_of",
+   "Anatomy"
+  ],
+  [
+   "Phenomena",
+   "measurement_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Phenomena",
+   "measurement_of",
+   "Objects"
+  ],
+  [
+   "Phenomena",
+   "measurement_of",
+   "Physiology"
+  ],
+  [
+   "Phenomena",
+   "process_of",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "process_of",
+   "Living_Beings"
+  ],
+  [
+   "Phenomena",
+   "process_of",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "process_of",
+   "Physiology"
+  ],
+  [
+   "Phenomena",
+   "produces",
+   "Anatomy"
+  ],
+  [
+   "Phenomena",
+   "produces",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Phenomena",
+   "result_of",
+   "Disorders"
+  ],
+  [
+   "Phenomena",
+   "result_of",
+   "Phenomena"
+  ],
+  [
+   "Phenomena",
+   "result_of",
+   "Physiology"
+  ],
+  [
+   "Phenomena",
+   "result_of",
+   "Procedures"
+  ],
+  [
+   "Physiology",
+   "affects",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Physiology",
+   "affects",
+   "Disorders"
+  ],
+  [
+   "Physiology",
+   "affects",
+   "Living_Beings"
+  ],
+  [
+   "Physiology",
+   "affects",
+   "Phenomena"
+  ],
+  [
+   "Physiology",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "associated_with",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "co-occurs_with",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "conceptual_part_of",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Physiology",
+   "degree_of",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "isa",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Physiology",
+   "isa",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Physiology",
+   "isa",
+   "Objects"
+  ],
+  [
+   "Physiology",
+   "isa",
+   "Phenomena"
+  ],
+  [
+   "Physiology",
+   "isa",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Physiology",
+   "manifestation_of",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "measurement_of",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "occurs_in",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Physiology",
+   "occurs_in",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "precedes",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "process_of",
+   "Disorders"
+  ],
+  [
+   "Physiology",
+   "process_of",
+   "Living_Beings"
+  ],
+  [
+   "Physiology",
+   "process_of",
+   "Phenomena"
+  ],
+  [
+   "Physiology",
+   "process_of",
+   "Physiology"
+  ],
+  [
+   "Physiology",
+   "produces",
+   "Anatomy"
+  ],
+  [
+   "Physiology",
+   "produces",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Physiology",
+   "produces",
+   "Living_Beings"
+  ],
+  [
+   "Physiology",
+   "property_of",
+   "Living_Beings"
+  ],
+  [
+   "Physiology",
+   "result_of",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Physiology",
+   "result_of",
+   "Disorders"
+  ],
+  [
+   "Physiology",
+   "result_of",
+   "Phenomena"
+  ],
+  [
+   "Physiology",
+   "result_of",
+   "Physiology"
+  ],
+  [
+   "Procedures",
+   "affects",
+   "Disorders"
+  ],
+  [
+   "Procedures",
+   "affects",
+   "Living_Beings"
+  ],
+  [
+   "Procedures",
+   "affects",
+   "Phenomena"
+  ],
+  [
+   "Procedures",
+   "affects",
+   "Physiology"
+  ],
+  [
+   "Procedures",
+   "analyzes",
+   "Anatomy"
+  ],
+  [
+   "Procedures",
+   "analyzes",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Procedures",
+   "assesses_effect_of",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Procedures",
+   "assesses_effect_of",
+   "Disorders"
+  ],
+  [
+   "Procedures",
+   "assesses_effect_of",
+   "Phenomena"
+  ],
+  [
+   "Procedures",
+   "assesses_effect_of",
+   "Physiology"
+  ],
+  [
+   "Procedures",
+   "associated_with",
+   "Disorders"
+  ],
+  [
+   "Procedures",
+   "complicates",
+   "Disorders"
+  ],
+  [
+   "Procedures",
+   "complicates",
+   "Phenomena"
+  ],
+  [
+   "Procedures",
+   "complicates",
+   "Physiology"
+  ],
+  [
+   "Procedures",
+   "diagnoses",
+   "Disorders"
+  ],
+  [
+   "Procedures",
+   "isa",
+   "Activities_&_Behaviors"
+  ],
+  [
+   "Procedures",
+   "isa",
+   "Procedures"
+  ],
+  [
+   "Procedures",
+   "issue_in",
+   "Occupations"
+  ],
+  [
+   "Procedures",
+   "measures",
+   "Anatomy"
+  ],
+  [
+   "Procedures",
+   "measures",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Procedures",
+   "measures",
+   "Concepts_&_Ideas"
+  ],
+  [
+   "Procedures",
+   "measures",
+   "Disorders"
+  ],
+  [
+   "Procedures",
+   "measures",
+   "Phenomena"
+  ],
+  [
+   "Procedures",
+   "measures",
+   "Physiology"
+  ],
+  [
+   "Procedures",
+   "method_of",
+   "Occupations"
+  ],
+  [
+   "Procedures",
+   "method_of",
+   "Procedures"
+  ],
+  [
+   "Procedures",
+   "precedes",
+   "Procedures"
+  ],
+  [
+   "Procedures",
+   "prevents",
+   "Disorders"
+  ],
+  [
+   "Procedures",
+   "treats",
+   "Disorders"
+  ],
+  [
+   "Procedures",
+   "uses",
+   "Chemicals_&_Drugs"
+  ],
+  [
+   "Procedures",
+   "uses",
+   "Devices"
+  ],
+  [
+   "Procedures",
+   "uses",
+   "Objects"
+  ]
+ ],
+ "n_entities": 135,
+ "n_relations": 49,
+ "n_triples": 6752,
+ "questions": [
+  {
+   "qid": "umls-h2-000",
+   "hop": 2,
+   "start": "Fully_Formed_Anatomical_Structure",
+   "start_id": 55,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Fully_Formed_Anatomical_Structure",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-001",
+   "hop": 2,
+   "start": "Receptor",
+   "start_id": 117,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Receptor",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-002",
+   "hop": 2,
+   "start": "Gene_or_Genome",
+   "start_id": 58,
+   "rel_seq": [
+    "isa",
+    "contains"
+   ],
+   "answer": "Body_Substance",
+   "answer_id": 22,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Gene_or_Genome",
+     "isa",
+     "Fully_Formed_Anatomical_Structure"
+    ],
+    [
+     "Fully_Formed_Anatomical_Structure",
+     "contains",
+     "Body_Substance"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Anatomy"
+    ],
+    [
+     "contains",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 2.5,
+   "distract_max": 4,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h2-003",
+   "hop": 2,
+   "start": "Functional_Concept",
+   "start_id": 56,
+   "rel_seq": [
+    "result_of",
+    "occurs_in"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Functional_Concept",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "occurs_in",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "occurs_in",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-004",
+   "hop": 2,
+   "start": "Organism_Attribute",
+   "start_id": 101,
+   "rel_seq": [
+    "result_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Organism_Attribute",
+     "result_of",
+     "Organ_or_Tissue_Function"
+    ],
+    [
+     "Organ_or_Tissue_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 10.0,
+   "distract_max": 19,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-005",
+   "hop": 2,
+   "start": "Organism_Function",
+   "start_id": 102,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Organism_Function",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-006",
+   "hop": 2,
+   "start": "Body_System",
+   "start_id": 23,
+   "rel_seq": [
+    "conceptual_part_of",
+    "contains"
+   ],
+   "answer": "Body_Substance",
+   "answer_id": 22,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Body_System",
+     "conceptual_part_of",
+     "Fully_Formed_Anatomical_Structure"
+    ],
+    [
+     "Fully_Formed_Anatomical_Structure",
+     "contains",
+     "Body_Substance"
+    ]
+   ],
+   "type_seq": [
+    [
+     "conceptual_part_of",
+     "Anatomy"
+    ],
+    [
+     "contains",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-007",
+   "hop": 2,
+   "start": "Body_Part,_Organ,_or_Organ_Component",
+   "start_id": 20,
+   "rel_seq": [
+    "conceptual_part_of",
+    "result_of"
+   ],
+   "answer": "Mental_Process",
+   "answer_id": 86,
+   "answer_type": "Physiology",
+   "gt_path": [
+    [
+     "Body_Part,_Organ,_or_Organ_Component",
+     "conceptual_part_of",
+     "Body_System"
+    ],
+    [
+     "Body_System",
+     "result_of",
+     "Mental_Process"
+    ]
+   ],
+   "type_seq": [
+    [
+     "conceptual_part_of",
+     "Anatomy"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-008",
+   "hop": 2,
+   "start": "Functional_Concept",
+   "start_id": 56,
+   "rel_seq": [
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Behavior",
+   "answer_id": 13,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Functional_Concept",
+     "isa",
+     "Idea_or_Concept"
+    ],
+    [
+     "Idea_or_Concept",
+     "conceptual_part_of",
+     "Behavior"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-009",
+   "hop": 2,
+   "start": "Tissue",
+   "start_id": 131,
+   "rel_seq": [
+    "contains",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Tissue",
+     "contains",
+     "Body_Substance"
+    ],
+    [
+     "Body_Substance",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "contains",
+     "Anatomy"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h2-010",
+   "hop": 2,
+   "start": "Sign_or_Symptom",
+   "start_id": 124,
+   "rel_seq": [
+    "diagnoses",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Sign_or_Symptom",
+     "diagnoses",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "diagnoses",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 5.5,
+   "distract_max": 10,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-011",
+   "hop": 2,
+   "start": "Cell_Component",
+   "start_id": 27,
+   "rel_seq": [
+    "contains",
+    "derivative_of"
+   ],
+   "answer": "Tissue",
+   "answer_id": 131,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Cell_Component",
+     "contains",
+     "Body_Substance"
+    ],
+    [
+     "Body_Substance",
+     "derivative_of",
+     "Tissue"
+    ]
+   ],
+   "type_seq": [
+    [
+     "contains",
+     "Anatomy"
+    ],
+    [
+     "derivative_of",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-012",
+   "hop": 2,
+   "start": "Educational_Activity",
+   "start_id": 42,
+   "rel_seq": [
+    "method_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Educational_Activity",
+     "method_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "method_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-013",
+   "hop": 2,
+   "start": "Language",
+   "start_id": 80,
+   "rel_seq": [
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Language",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-014",
+   "hop": 2,
+   "start": "Embryonic_Structure",
+   "start_id": 45,
+   "rel_seq": [
+    "part_of",
+    "adjacent_to"
+   ],
+   "answer": "Cell",
+   "answer_id": 26,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Embryonic_Structure",
+     "part_of",
+     "Cell"
+    ],
+    [
+     "Cell",
+     "adjacent_to",
+     "Cell"
+    ]
+   ],
+   "type_seq": [
+    [
+     "part_of",
+     "Anatomy"
+    ],
+    [
+     "adjacent_to",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 10.0,
+   "distract_max": 19,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-015",
+   "hop": 2,
+   "start": "Professional_Society",
+   "start_id": 113,
+   "rel_seq": [
+    "location_of",
+    "precedes"
+   ],
+   "answer": "Therapeutic_or_Preventive_Procedure",
+   "answer_id": 130,
+   "answer_type": "Procedures",
+   "gt_path": [
+    [
+     "Professional_Society",
+     "location_of",
+     "Diagnostic_Procedure"
+    ],
+    [
+     "Diagnostic_Procedure",
+     "precedes",
+     "Therapeutic_or_Preventive_Procedure"
+    ]
+   ],
+   "type_seq": [
+    [
+     "location_of",
+     "Procedures"
+    ],
+    [
+     "precedes",
+     "Procedures"
+    ]
+   ],
+   "distract_avg": 5.0,
+   "distract_max": 9,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-016",
+   "hop": 2,
+   "start": "Organism_Function",
+   "start_id": 102,
+   "rel_seq": [
+    "degree_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Organism_Function",
+     "degree_of",
+     "Organism_Function"
+    ],
+    [
+     "Organism_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "degree_of",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-017",
+   "hop": 2,
+   "start": "Functional_Concept",
+   "start_id": 56,
+   "rel_seq": [
+    "isa",
+    "result_of"
+   ],
+   "answer": "Mental_Process",
+   "answer_id": 86,
+   "answer_type": "Physiology",
+   "gt_path": [
+    [
+     "Functional_Concept",
+     "isa",
+     "Idea_or_Concept"
+    ],
+    [
+     "Idea_or_Concept",
+     "result_of",
+     "Mental_Process"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-018",
+   "hop": 2,
+   "start": "Organic_Chemical",
+   "start_id": 99,
+   "rel_seq": [
+    "interacts_with",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Organic_Chemical",
+     "interacts_with",
+     "Amino_Acid,_Peptide,_or_Protein"
+    ],
+    [
+     "Amino_Acid,_Peptide,_or_Protein",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 12.5,
+   "distract_max": 24,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-019",
+   "hop": 2,
+   "start": "Clinical_Attribute",
+   "start_id": 34,
+   "rel_seq": [
+    "result_of",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Clinical_Attribute",
+     "result_of",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 10.0,
+   "distract_max": 19,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-020",
+   "hop": 2,
+   "start": "Behavior",
+   "start_id": 13,
+   "rel_seq": [
+    "isa",
+    "isa"
+   ],
+   "answer": "Event",
+   "answer_id": 49,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Behavior",
+     "isa",
+     "Activity"
+    ],
+    [
+     "Activity",
+     "isa",
+     "Event"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-021",
+   "hop": 2,
+   "start": "Molecular_Biology_Research_Technique",
+   "start_id": 88,
+   "rel_seq": [
+    "measures",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Molecular_Biology_Research_Technique",
+     "measures",
+     "Amino_Acid,_Peptide,_or_Protein"
+    ],
+    [
+     "Amino_Acid,_Peptide,_or_Protein",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "measures",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 23.0,
+   "distract_max": 45,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h2-022",
+   "hop": 2,
+   "start": "Organophosphorus_Compound",
+   "start_id": 104,
+   "rel_seq": [
+    "interacts_with",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Organophosphorus_Compound",
+     "interacts_with",
+     "Amino_Acid,_Peptide,_or_Protein"
+    ],
+    [
+     "Amino_Acid,_Peptide,_or_Protein",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 11.5,
+   "distract_max": 22,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-023",
+   "hop": 2,
+   "start": "Nucleic_Acid,_Nucleoside,_or_Nucleotide",
+   "start_id": 94,
+   "rel_seq": [
+    "interacts_with",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Nucleic_Acid,_Nucleoside,_or_Nucleotide",
+     "interacts_with",
+     "Amino_Acid,_Peptide,_or_Protein"
+    ],
+    [
+     "Amino_Acid,_Peptide,_or_Protein",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 12.0,
+   "distract_max": 23,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-024",
+   "hop": 2,
+   "start": "Language",
+   "start_id": 80,
+   "rel_seq": [
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Language",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-025",
+   "hop": 2,
+   "start": "Population_Group",
+   "start_id": 112,
+   "rel_seq": [
+    "performs",
+    "conceptual_part_of"
+   ],
+   "answer": "Social_Behavior",
+   "answer_id": 125,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Population_Group",
+     "performs",
+     "Social_Behavior"
+    ],
+    [
+     "Social_Behavior",
+     "conceptual_part_of",
+     "Social_Behavior"
+    ]
+   ],
+   "type_seq": [
+    [
+     "performs",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 8.0,
+   "distract_max": 15,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h2-026",
+   "hop": 2,
+   "start": "Social_Behavior",
+   "start_id": 125,
+   "rel_seq": [
+    "affects",
+    "occurs_in"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Social_Behavior",
+     "affects",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "occurs_in",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "affects",
+     "Physiology"
+    ],
+    [
+     "occurs_in",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 2.5,
+   "distract_max": 4,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-027",
+   "hop": 2,
+   "start": "Fungus",
+   "start_id": 57,
+   "rel_seq": [
+    "location_of",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Fungus",
+     "location_of",
+     "Biologically_Active_Substance"
+    ],
+    [
+     "Biologically_Active_Substance",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "location_of",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 4.0,
+   "distract_max": 7,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-028",
+   "hop": 2,
+   "start": "Body_Part,_Organ,_or_Organ_Component",
+   "start_id": 20,
+   "rel_seq": [
+    "contains",
+    "derivative_of"
+   ],
+   "answer": "Tissue",
+   "answer_id": 131,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Body_Part,_Organ,_or_Organ_Component",
+     "contains",
+     "Body_Substance"
+    ],
+    [
+     "Body_Substance",
+     "derivative_of",
+     "Tissue"
+    ]
+   ],
+   "type_seq": [
+    [
+     "contains",
+     "Anatomy"
+    ],
+    [
+     "derivative_of",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-029",
+   "hop": 2,
+   "start": "Amphibian",
+   "start_id": 6,
+   "rel_seq": [
+    "exhibits",
+    "conceptually_related_to"
+   ],
+   "answer": "Idea_or_Concept",
+   "answer_id": 70,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Amphibian",
+     "exhibits",
+     "Individual_Behavior"
+    ],
+    [
+     "Individual_Behavior",
+     "conceptually_related_to",
+     "Idea_or_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "exhibits",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "conceptually_related_to",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h2-030",
+   "hop": 2,
+   "start": "Alga",
+   "start_id": 3,
+   "rel_seq": [
+    "location_of",
+    "associated_with"
+   ],
+   "answer": "Virus",
+   "answer_id": 133,
+   "answer_type": "Living_Beings",
+   "gt_path": [
+    [
+     "Alga",
+     "location_of",
+     "Biologically_Active_Substance"
+    ],
+    [
+     "Biologically_Active_Substance",
+     "associated_with",
+     "Virus"
+    ]
+   ],
+   "type_seq": [
+    [
+     "location_of",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "associated_with",
+     "Living_Beings"
+    ]
+   ],
+   "distract_avg": 4.0,
+   "distract_max": 7,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-031",
+   "hop": 2,
+   "start": "Daily_or_Recreational_Activity",
+   "start_id": 38,
+   "rel_seq": [
+    "isa",
+    "isa"
+   ],
+   "answer": "Event",
+   "answer_id": 49,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Daily_or_Recreational_Activity",
+     "isa",
+     "Activity"
+    ],
+    [
+     "Activity",
+     "isa",
+     "Event"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-032",
+   "hop": 2,
+   "start": "Body_Part,_Organ,_or_Organ_Component",
+   "start_id": 20,
+   "rel_seq": [
+    "produces",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Body_Part,_Organ,_or_Organ_Component",
+     "produces",
+     "Amino_Acid,_Peptide,_or_Protein"
+    ],
+    [
+     "Amino_Acid,_Peptide,_or_Protein",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "produces",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 8.5,
+   "distract_max": 16,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h2-033",
+   "hop": 2,
+   "start": "Individual_Behavior",
+   "start_id": 73,
+   "rel_seq": [
+    "conceptually_related_to",
+    "conceptual_part_of"
+   ],
+   "answer": "Behavior",
+   "answer_id": 13,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Individual_Behavior",
+     "conceptually_related_to",
+     "Idea_or_Concept"
+    ],
+    [
+     "Idea_or_Concept",
+     "conceptual_part_of",
+     "Behavior"
+    ]
+   ],
+   "type_seq": [
+    [
+     "conceptually_related_to",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-034",
+   "hop": 2,
+   "start": "Substance",
+   "start_id": 128,
+   "rel_seq": [
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Substance",
+     "isa",
+     "Physical_Object"
+    ],
+    [
+     "Physical_Object",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-035",
+   "hop": 2,
+   "start": "Carbohydrate",
+   "start_id": 24,
+   "rel_seq": [
+    "causes",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Carbohydrate",
+     "causes",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "causes",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 5.5,
+   "distract_max": 10,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-036",
+   "hop": 2,
+   "start": "Carbohydrate_Sequence",
+   "start_id": 25,
+   "rel_seq": [
+    "result_of",
+    "occurs_in"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Carbohydrate_Sequence",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "occurs_in",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "occurs_in",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-037",
+   "hop": 2,
+   "start": "Idea_or_Concept",
+   "start_id": 70,
+   "rel_seq": [
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Idea_or_Concept",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-038",
+   "hop": 2,
+   "start": "Machine_Activity",
+   "start_id": 82,
+   "rel_seq": [
+    "isa",
+    "isa"
+   ],
+   "answer": "Event",
+   "answer_id": 49,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Machine_Activity",
+     "isa",
+     "Activity"
+    ],
+    [
+     "Activity",
+     "isa",
+     "Event"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h2-039",
+   "hop": 2,
+   "start": "Organism_Function",
+   "start_id": 102,
+   "rel_seq": [
+    "co-occurs_with",
+    "conceptual_part_of"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Organism_Function",
+     "co-occurs_with",
+     "Organ_or_Tissue_Function"
+    ],
+    [
+     "Organ_or_Tissue_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "co-occurs_with",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 4.0,
+   "distract_max": 7,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-000",
+   "hop": 3,
+   "start": "Body_Space_or_Junction",
+   "start_id": 21,
+   "rel_seq": [
+    "adjacent_to",
+    "connected_to",
+    "consists_of"
+   ],
+   "answer": "Tissue",
+   "answer_id": 131,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Body_Space_or_Junction",
+     "adjacent_to",
+     "Body_Space_or_Junction"
+    ],
+    [
+     "Body_Space_or_Junction",
+     "connected_to",
+     "Tissue"
+    ],
+    [
+     "Tissue",
+     "consists_of",
+     "Tissue"
+    ]
+   ],
+   "type_seq": [
+    [
+     "adjacent_to",
+     "Anatomy"
+    ],
+    [
+     "connected_to",
+     "Anatomy"
+    ],
+    [
+     "consists_of",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-001",
+   "hop": 3,
+   "start": "Bird",
+   "start_id": 18,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Bird",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-002",
+   "hop": 3,
+   "start": "Neoplastic_Process",
+   "start_id": 92,
+   "rel_seq": [
+    "associated_with",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Neoplastic_Process",
+     "associated_with",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "associated_with",
+     "Disorders"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 3.0,
+   "distract_max": 6,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-003",
+   "hop": 3,
+   "start": "Mental_Process",
+   "start_id": 86,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Mental_Process",
+     "isa",
+     "Biologic_Function"
+    ],
+    [
+     "Biologic_Function",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Phenomena"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 3.0,
+   "distract_max": 6,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-004",
+   "hop": 3,
+   "start": "Language",
+   "start_id": 80,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Language",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-005",
+   "hop": 3,
+   "start": "Idea_or_Concept",
+   "start_id": 70,
+   "rel_seq": [
+    "conceptual_part_of",
+    "isa",
+    "isa"
+   ],
+   "answer": "Event",
+   "answer_id": 49,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Idea_or_Concept",
+     "conceptual_part_of",
+     "Behavior"
+    ],
+    [
+     "Behavior",
+     "isa",
+     "Activity"
+    ],
+    [
+     "Activity",
+     "isa",
+     "Event"
+    ]
+   ],
+   "type_seq": [
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-006",
+   "hop": 3,
+   "start": "Biologic_Function",
+   "start_id": 14,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Biologic_Function",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-007",
+   "hop": 3,
+   "start": "Cell",
+   "start_id": 26,
+   "rel_seq": [
+    "isa",
+    "produces",
+    "associated_with"
+   ],
+   "answer": "Virus",
+   "answer_id": 133,
+   "answer_type": "Living_Beings",
+   "gt_path": [
+    [
+     "Cell",
+     "isa",
+     "Fully_Formed_Anatomical_Structure"
+    ],
+    [
+     "Fully_Formed_Anatomical_Structure",
+     "produces",
+     "Biologically_Active_Substance"
+    ],
+    [
+     "Biologically_Active_Substance",
+     "associated_with",
+     "Virus"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Anatomy"
+    ],
+    [
+     "produces",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "associated_with",
+     "Living_Beings"
+    ]
+   ],
+   "distract_avg": 7.0,
+   "distract_max": 16,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-008",
+   "hop": 3,
+   "start": "Mental_or_Behavioral_Dysfunction",
+   "start_id": 87,
+   "rel_seq": [
+    "result_of",
+    "measures",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Mental_or_Behavioral_Dysfunction",
+     "result_of",
+     "Diagnostic_Procedure"
+    ],
+    [
+     "Diagnostic_Procedure",
+     "measures",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Procedures"
+    ],
+    [
+     "measures",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 25.0,
+   "distract_max": 45,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-009",
+   "hop": 3,
+   "start": "Classification",
+   "start_id": 33,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Classification",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-010",
+   "hop": 3,
+   "start": "Archaeon",
+   "start_id": 11,
+   "rel_seq": [
+    "isa",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Archaeon",
+     "isa",
+     "Organism"
+    ],
+    [
+     "Organism",
+     "isa",
+     "Physical_Object"
+    ],
+    [
+     "Physical_Object",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Living_Beings"
+    ],
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-011",
+   "hop": 3,
+   "start": "Laboratory_or_Test_Result",
+   "start_id": 79,
+   "rel_seq": [
+    "manifestation_of",
+    "degree_of",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Laboratory_or_Test_Result",
+     "manifestation_of",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "degree_of",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "manifestation_of",
+     "Disorders"
+    ],
+    [
+     "degree_of",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 8.333333333333334,
+   "distract_max": 18,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-012",
+   "hop": 3,
+   "start": "Substance",
+   "start_id": 128,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Substance",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-013",
+   "hop": 3,
+   "start": "Human-caused_Phenomenon_or_Process",
+   "start_id": 69,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Human-caused_Phenomenon_or_Process",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-014",
+   "hop": 3,
+   "start": "Plant",
+   "start_id": 111,
+   "rel_seq": [
+    "interacts_with",
+    "exhibits",
+    "process_of"
+   ],
+   "answer": "Social_Behavior",
+   "answer_id": 125,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Plant",
+     "interacts_with",
+     "Amphibian"
+    ],
+    [
+     "Amphibian",
+     "exhibits",
+     "Individual_Behavior"
+    ],
+    [
+     "Individual_Behavior",
+     "process_of",
+     "Social_Behavior"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "exhibits",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "process_of",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 7.0,
+   "distract_max": 17,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-015",
+   "hop": 3,
+   "start": "Amino_Acid,_Peptide,_or_Protein",
+   "start_id": 4,
+   "rel_seq": [
+    "consists_of",
+    "causes",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Amino_Acid,_Peptide,_or_Protein",
+     "consists_of",
+     "Amino_Acid,_Peptide,_or_Protein"
+    ],
+    [
+     "Amino_Acid,_Peptide,_or_Protein",
+     "causes",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "consists_of",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "causes",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 4.0,
+   "distract_max": 10,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-016",
+   "hop": 3,
+   "start": "Phenomenon_or_Process",
+   "start_id": 108,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Phenomenon_or_Process",
+     "isa",
+     "Event"
+    ],
+    [
+     "Event",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-017",
+   "hop": 3,
+   "start": "Plant",
+   "start_id": 111,
+   "rel_seq": [
+    "location_of",
+    "interacts_with",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Plant",
+     "location_of",
+     "Biologically_Active_Substance"
+    ],
+    [
+     "Biologically_Active_Substance",
+     "interacts_with",
+     "Biologically_Active_Substance"
+    ],
+    [
+     "Biologically_Active_Substance",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "location_of",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "interacts_with",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 6.0,
+   "distract_max": 10,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-018",
+   "hop": 3,
+   "start": "Entity",
+   "start_id": 46,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Entity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-019",
+   "hop": 3,
+   "start": "Anatomical_Structure",
+   "start_id": 8,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Anatomical_Structure",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-020",
+   "hop": 3,
+   "start": "Organic_Chemical",
+   "start_id": 99,
+   "rel_seq": [
+    "isa",
+    "affects",
+    "conceptual_part_of"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Organic_Chemical",
+     "isa",
+     "Chemical"
+    ],
+    [
+     "Chemical",
+     "affects",
+     "Organ_or_Tissue_Function"
+    ],
+    [
+     "Organ_or_Tissue_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "affects",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 7.0,
+   "distract_max": 15,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-021",
+   "hop": 3,
+   "start": "Health_Care_Related_Organization",
+   "start_id": 66,
+   "rel_seq": [
+    "produces",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Health_Care_Related_Organization",
+     "produces",
+     "Classification"
+    ],
+    [
+     "Classification",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "produces",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-022",
+   "hop": 3,
+   "start": "Clinical_Attribute",
+   "start_id": 34,
+   "rel_seq": [
+    "degree_of",
+    "result_of",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Clinical_Attribute",
+     "degree_of",
+     "Clinical_Attribute"
+    ],
+    [
+     "Clinical_Attribute",
+     "result_of",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "degree_of",
+     "Physiology"
+    ],
+    [
+     "result_of",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 7.333333333333333,
+   "distract_max": 19,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-023",
+   "hop": 3,
+   "start": "Invertebrate",
+   "start_id": 77,
+   "rel_seq": [
+    "exhibits",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Social_Behavior",
+   "answer_id": 125,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Invertebrate",
+     "exhibits",
+     "Social_Behavior"
+    ],
+    [
+     "Social_Behavior",
+     "conceptual_part_of",
+     "Social_Behavior"
+    ],
+    [
+     "Social_Behavior",
+     "conceptual_part_of",
+     "Social_Behavior"
+    ]
+   ],
+   "type_seq": [
+    [
+     "exhibits",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-024",
+   "hop": 3,
+   "start": "Mental_Process",
+   "start_id": 86,
+   "rel_seq": [
+    "result_of",
+    "associated_with",
+    "treats"
+   ],
+   "answer": "Patient_or_Disabled_Group",
+   "answer_id": 106,
+   "answer_type": "Living_Beings",
+   "gt_path": [
+    [
+     "Mental_Process",
+     "result_of",
+     "Behavior"
+    ],
+    [
+     "Behavior",
+     "associated_with",
+     "Professional_or_Occupational_Group"
+    ],
+    [
+     "Professional_or_Occupational_Group",
+     "treats",
+     "Patient_or_Disabled_Group"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "associated_with",
+     "Living_Beings"
+    ],
+    [
+     "treats",
+     "Living_Beings"
+    ]
+   ],
+   "distract_avg": 12.666666666666666,
+   "distract_max": 25,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-025",
+   "hop": 3,
+   "start": "Injury_or_Poisoning",
+   "start_id": 74,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Injury_or_Poisoning",
+     "isa",
+     "Event"
+    ],
+    [
+     "Event",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-026",
+   "hop": 3,
+   "start": "Organization",
+   "start_id": 103,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Organization",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-027",
+   "hop": 3,
+   "start": "Qualitative_Concept",
+   "start_id": 115,
+   "rel_seq": [
+    "isa",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Qualitative_Concept",
+     "isa",
+     "Idea_or_Concept"
+    ],
+    [
+     "Idea_or_Concept",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-028",
+   "hop": 3,
+   "start": "Nucleotide_Sequence",
+   "start_id": 95,
+   "rel_seq": [
+    "part_of",
+    "result_of",
+    "occurs_in"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Nucleotide_Sequence",
+     "part_of",
+     "Nucleotide_Sequence"
+    ],
+    [
+     "Nucleotide_Sequence",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "occurs_in",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "part_of",
+     "Genes_&_Molecular_Sequences"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "occurs_in",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-029",
+   "hop": 3,
+   "start": "Daily_or_Recreational_Activity",
+   "start_id": 38,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Daily_or_Recreational_Activity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6666666666666667,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-030",
+   "hop": 3,
+   "start": "Occupational_Activity",
+   "start_id": 97,
+   "rel_seq": [
+    "method_of",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Occupational_Activity",
+     "method_of",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "method_of",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-031",
+   "hop": 3,
+   "start": "Rickettsia_or_Chlamydia",
+   "start_id": 122,
+   "rel_seq": [
+    "interacts_with",
+    "exhibits",
+    "result_of"
+   ],
+   "answer": "Mental_Process",
+   "answer_id": 86,
+   "answer_type": "Physiology",
+   "gt_path": [
+    [
+     "Rickettsia_or_Chlamydia",
+     "interacts_with",
+     "Amphibian"
+    ],
+    [
+     "Amphibian",
+     "exhibits",
+     "Behavior"
+    ],
+    [
+     "Behavior",
+     "result_of",
+     "Mental_Process"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "exhibits",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ]
+   ],
+   "distract_avg": 5.666666666666667,
+   "distract_max": 13,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-032",
+   "hop": 3,
+   "start": "Human-caused_Phenomenon_or_Process",
+   "start_id": 69,
+   "rel_seq": [
+    "result_of",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Human-caused_Phenomenon_or_Process",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "isa",
+     "Organism_Function"
+    ],
+    [
+     "Organism_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "isa",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 9.666666666666666,
+   "distract_max": 22,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-033",
+   "hop": 3,
+   "start": "Cell_Component",
+   "start_id": 27,
+   "rel_seq": [
+    "surrounds",
+    "surrounds",
+    "contains"
+   ],
+   "answer": "Body_Substance",
+   "answer_id": 22,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Cell_Component",
+     "surrounds",
+     "Cell_Component"
+    ],
+    [
+     "Cell_Component",
+     "surrounds",
+     "Cell_Component"
+    ],
+    [
+     "Cell_Component",
+     "contains",
+     "Body_Substance"
+    ]
+   ],
+   "type_seq": [
+    [
+     "surrounds",
+     "Anatomy"
+    ],
+    [
+     "surrounds",
+     "Anatomy"
+    ],
+    [
+     "contains",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 1.0,
+   "distract_max": 1,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-034",
+   "hop": 3,
+   "start": "Research_Device",
+   "start_id": 121,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Research_Device",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-035",
+   "hop": 3,
+   "start": "Inorganic_Chemical",
+   "start_id": 75,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Inorganic_Chemical",
+     "isa",
+     "Chemical"
+    ],
+    [
+     "Chemical",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.6666666666666665,
+   "distract_max": 5,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-036",
+   "hop": 3,
+   "start": "Family_Group",
+   "start_id": 51,
+   "rel_seq": [
+    "performs",
+    "treats",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Family_Group",
+     "performs",
+     "Therapeutic_or_Preventive_Procedure"
+    ],
+    [
+     "Therapeutic_or_Preventive_Procedure",
+     "treats",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "performs",
+     "Procedures"
+    ],
+    [
+     "treats",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 9.0,
+   "distract_max": 15,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-037",
+   "hop": 3,
+   "start": "Amino_Acid_Sequence",
+   "start_id": 5,
+   "rel_seq": [
+    "result_of",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Amino_Acid_Sequence",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h3-038",
+   "hop": 3,
+   "start": "Biologically_Active_Substance",
+   "start_id": 15,
+   "rel_seq": [
+    "associated_with",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Biologically_Active_Substance",
+     "associated_with",
+     "Virus"
+    ],
+    [
+     "Virus",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "associated_with",
+     "Living_Beings"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.3333333333333333,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h3-039",
+   "hop": 3,
+   "start": "Molecular_Biology_Research_Technique",
+   "start_id": 88,
+   "rel_seq": [
+    "associated_with",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Molecular_Biology_Research_Technique",
+     "associated_with",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "associated_with",
+     "Disorders"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 4.333333333333333,
+   "distract_max": 10,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-000",
+   "hop": 4,
+   "start": "Population_Group",
+   "start_id": 112,
+   "rel_seq": [
+    "isa",
+    "performs",
+    "conceptually_related_to",
+    "conceptual_part_of"
+   ],
+   "answer": "Behavior",
+   "answer_id": 13,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Population_Group",
+     "isa",
+     "Group"
+    ],
+    [
+     "Group",
+     "performs",
+     "Individual_Behavior"
+    ],
+    [
+     "Individual_Behavior",
+     "conceptually_related_to",
+     "Idea_or_Concept"
+    ],
+    [
+     "Idea_or_Concept",
+     "conceptual_part_of",
+     "Behavior"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Living_Beings"
+    ],
+    [
+     "performs",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "conceptually_related_to",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 5.0,
+   "distract_max": 15,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-001",
+   "hop": 4,
+   "start": "Functional_Concept",
+   "start_id": 56,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Functional_Concept",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-002",
+   "hop": 4,
+   "start": "Research_Device",
+   "start_id": 121,
+   "rel_seq": [
+    "causes",
+    "isa",
+    "manifestation_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Research_Device",
+     "causes",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "isa",
+     "Anatomical_Abnormality"
+    ],
+    [
+     "Anatomical_Abnormality",
+     "manifestation_of",
+     "Organ_or_Tissue_Function"
+    ],
+    [
+     "Organ_or_Tissue_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "causes",
+     "Disorders"
+    ],
+    [
+     "isa",
+     "Disorders"
+    ],
+    [
+     "manifestation_of",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 7.25,
+   "distract_max": 14,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-003",
+   "hop": 4,
+   "start": "Alga",
+   "start_id": 3,
+   "rel_seq": [
+    "isa",
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Alga",
+     "isa",
+     "Organism"
+    ],
+    [
+     "Organism",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Living_Beings"
+    ],
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.25,
+   "distract_max": 4,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-004",
+   "hop": 4,
+   "start": "Reptile",
+   "start_id": 119,
+   "rel_seq": [
+    "exhibits",
+    "process_of",
+    "result_of",
+    "occurs_in"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Reptile",
+     "exhibits",
+     "Individual_Behavior"
+    ],
+    [
+     "Individual_Behavior",
+     "process_of",
+     "Social_Behavior"
+    ],
+    [
+     "Social_Behavior",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "occurs_in",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "exhibits",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "process_of",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "occurs_in",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-005",
+   "hop": 4,
+   "start": "Clinical_Drug",
+   "start_id": 35,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Clinical_Drug",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-006",
+   "hop": 4,
+   "start": "Biomedical_or_Dental_Material",
+   "start_id": 17,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Biomedical_or_Dental_Material",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.25,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-007",
+   "hop": 4,
+   "start": "Self-help_or_Relief_Organization",
+   "start_id": 123,
+   "rel_seq": [
+    "produces",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Self-help_or_Relief_Organization",
+     "produces",
+     "Classification"
+    ],
+    [
+     "Classification",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "produces",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.75,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-008",
+   "hop": 4,
+   "start": "Anatomical_Structure",
+   "start_id": 8,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Anatomical_Structure",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.75,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-009",
+   "hop": 4,
+   "start": "Conceptual_Entity",
+   "start_id": 36,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Conceptual_Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-010",
+   "hop": 4,
+   "start": "Diagnostic_Procedure",
+   "start_id": 39,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Diagnostic_Procedure",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.75,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-011",
+   "hop": 4,
+   "start": "Cell",
+   "start_id": 26,
+   "rel_seq": [
+    "consists_of",
+    "conceptual_part_of",
+    "isa",
+    "result_of"
+   ],
+   "answer": "Mental_Process",
+   "answer_id": 86,
+   "answer_type": "Physiology",
+   "gt_path": [
+    [
+     "Cell",
+     "consists_of",
+     "Cell"
+    ],
+    [
+     "Cell",
+     "conceptual_part_of",
+     "Body_System"
+    ],
+    [
+     "Body_System",
+     "isa",
+     "Functional_Concept"
+    ],
+    [
+     "Functional_Concept",
+     "result_of",
+     "Mental_Process"
+    ]
+   ],
+   "type_seq": [
+    [
+     "consists_of",
+     "Anatomy"
+    ],
+    [
+     "conceptual_part_of",
+     "Anatomy"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ]
+   ],
+   "distract_avg": 1.75,
+   "distract_max": 4,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-012",
+   "hop": 4,
+   "start": "Alga",
+   "start_id": 3,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Alga",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-013",
+   "hop": 4,
+   "start": "Human",
+   "start_id": 68,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Human",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.25,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-014",
+   "hop": 4,
+   "start": "Body_Location_or_Region",
+   "start_id": 19,
+   "rel_seq": [
+    "location_of",
+    "disrupts",
+    "consists_of",
+    "tributary_of"
+   ],
+   "answer": "Body_Part,_Organ,_or_Organ_Component",
+   "answer_id": 20,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Body_Location_or_Region",
+     "location_of",
+     "Injury_or_Poisoning"
+    ],
+    [
+     "Injury_or_Poisoning",
+     "disrupts",
+     "Body_Part,_Organ,_or_Organ_Component"
+    ],
+    [
+     "Body_Part,_Organ,_or_Organ_Component",
+     "consists_of",
+     "Body_Part,_Organ,_or_Organ_Component"
+    ],
+    [
+     "Body_Part,_Organ,_or_Organ_Component",
+     "tributary_of",
+     "Body_Part,_Organ,_or_Organ_Component"
+    ]
+   ],
+   "type_seq": [
+    [
+     "location_of",
+     "Disorders"
+    ],
+    [
+     "disrupts",
+     "Anatomy"
+    ],
+    [
+     "consists_of",
+     "Anatomy"
+    ],
+    [
+     "tributary_of",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 10.0,
+   "distract_max": 23,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-015",
+   "hop": 4,
+   "start": "Medical_Device",
+   "start_id": 85,
+   "rel_seq": [
+    "prevents",
+    "produces",
+    "surrounds",
+    "connected_to"
+   ],
+   "answer": "Tissue",
+   "answer_id": 131,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Medical_Device",
+     "prevents",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "produces",
+     "Tissue"
+    ],
+    [
+     "Tissue",
+     "surrounds",
+     "Body_Space_or_Junction"
+    ],
+    [
+     "Body_Space_or_Junction",
+     "connected_to",
+     "Tissue"
+    ]
+   ],
+   "type_seq": [
+    [
+     "prevents",
+     "Disorders"
+    ],
+    [
+     "produces",
+     "Anatomy"
+    ],
+    [
+     "surrounds",
+     "Anatomy"
+    ],
+    [
+     "connected_to",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 5.5,
+   "distract_max": 9,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-016",
+   "hop": 4,
+   "start": "Fish",
+   "start_id": 53,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Fish",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-017",
+   "hop": 4,
+   "start": "Neoplastic_Process",
+   "start_id": 92,
+   "rel_seq": [
+    "produces",
+    "part_of",
+    "traverses",
+    "conceptual_part_of"
+   ],
+   "answer": "Body_System",
+   "answer_id": 23,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Neoplastic_Process",
+     "produces",
+     "Body_Substance"
+    ],
+    [
+     "Body_Substance",
+     "part_of",
+     "Body_Part,_Organ,_or_Organ_Component"
+    ],
+    [
+     "Body_Part,_Organ,_or_Organ_Component",
+     "traverses",
+     "Body_Part,_Organ,_or_Organ_Component"
+    ],
+    [
+     "Body_Part,_Organ,_or_Organ_Component",
+     "conceptual_part_of",
+     "Body_System"
+    ]
+   ],
+   "type_seq": [
+    [
+     "produces",
+     "Anatomy"
+    ],
+    [
+     "part_of",
+     "Anatomy"
+    ],
+    [
+     "traverses",
+     "Anatomy"
+    ],
+    [
+     "conceptual_part_of",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 3.25,
+   "distract_max": 9,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-018",
+   "hop": 4,
+   "start": "Organism_Function",
+   "start_id": 102,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Organism_Function",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.75,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-019",
+   "hop": 4,
+   "start": "Daily_or_Recreational_Activity",
+   "start_id": 38,
+   "rel_seq": [
+    "isa",
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Daily_or_Recreational_Activity",
+     "isa",
+     "Activity"
+    ],
+    [
+     "Activity",
+     "isa",
+     "Event"
+    ],
+    [
+     "Event",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-020",
+   "hop": 4,
+   "start": "Physical_Object",
+   "start_id": 109,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Physical_Object",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-021",
+   "hop": 4,
+   "start": "Food",
+   "start_id": 54,
+   "rel_seq": [
+    "causes",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Food",
+     "causes",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "causes",
+     "Disorders"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 3.75,
+   "distract_max": 10,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-022",
+   "hop": 4,
+   "start": "Organic_Chemical",
+   "start_id": 99,
+   "rel_seq": [
+    "isa",
+    "interacts_with",
+    "interacts_with",
+    "associated_with"
+   ],
+   "answer": "Virus",
+   "answer_id": 133,
+   "answer_type": "Living_Beings",
+   "gt_path": [
+    [
+     "Organic_Chemical",
+     "isa",
+     "Chemical_Viewed_Structurally"
+    ],
+    [
+     "Chemical_Viewed_Structurally",
+     "interacts_with",
+     "Amino_Acid,_Peptide,_or_Protein"
+    ],
+    [
+     "Amino_Acid,_Peptide,_or_Protein",
+     "interacts_with",
+     "Biologically_Active_Substance"
+    ],
+    [
+     "Biologically_Active_Substance",
+     "associated_with",
+     "Virus"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "interacts_with",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "interacts_with",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "associated_with",
+     "Living_Beings"
+    ]
+   ],
+   "distract_avg": 13.0,
+   "distract_max": 25,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-023",
+   "hop": 4,
+   "start": "Molecular_Function",
+   "start_id": 89,
+   "rel_seq": [
+    "precedes",
+    "precedes",
+    "produces",
+    "conceptual_part_of"
+   ],
+   "answer": "Body_System",
+   "answer_id": 23,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Molecular_Function",
+     "precedes",
+     "Cell_Function"
+    ],
+    [
+     "Cell_Function",
+     "precedes",
+     "Cell_Function"
+    ],
+    [
+     "Cell_Function",
+     "produces",
+     "Body_Substance"
+    ],
+    [
+     "Body_Substance",
+     "conceptual_part_of",
+     "Body_System"
+    ]
+   ],
+   "type_seq": [
+    [
+     "precedes",
+     "Physiology"
+    ],
+    [
+     "precedes",
+     "Physiology"
+    ],
+    [
+     "produces",
+     "Anatomy"
+    ],
+    [
+     "conceptual_part_of",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 5.75,
+   "distract_max": 8,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-024",
+   "hop": 4,
+   "start": "Therapeutic_or_Preventive_Procedure",
+   "start_id": 130,
+   "rel_seq": [
+    "prevents",
+    "isa",
+    "occurs_in",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Therapeutic_or_Preventive_Procedure",
+     "prevents",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "isa",
+     "Pathologic_Function"
+    ],
+    [
+     "Pathologic_Function",
+     "occurs_in",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "prevents",
+     "Disorders"
+    ],
+    [
+     "isa",
+     "Disorders"
+    ],
+    [
+     "occurs_in",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 5.5,
+   "distract_max": 10,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-025",
+   "hop": 4,
+   "start": "Behavior",
+   "start_id": 13,
+   "rel_seq": [
+    "isa",
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Behavior",
+     "isa",
+     "Activity"
+    ],
+    [
+     "Activity",
+     "isa",
+     "Event"
+    ],
+    [
+     "Event",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-026",
+   "hop": 4,
+   "start": "Functional_Concept",
+   "start_id": 56,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Functional_Concept",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-027",
+   "hop": 4,
+   "start": "Physical_Object",
+   "start_id": 109,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Physical_Object",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.25,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-028",
+   "hop": 4,
+   "start": "Human",
+   "start_id": 68,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Human",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-029",
+   "hop": 4,
+   "start": "Quantitative_Concept",
+   "start_id": 116,
+   "rel_seq": [
+    "measurement_of",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Quantitative_Concept",
+     "measurement_of",
+     "Amino_Acid_Sequence"
+    ],
+    [
+     "Amino_Acid_Sequence",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "measurement_of",
+     "Genes_&_Molecular_Sequences"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 5.0,
+   "distract_max": 15,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-030",
+   "hop": 4,
+   "start": "Acquired_Abnormality",
+   "start_id": 0,
+   "rel_seq": [
+    "complicates",
+    "manifestation_of",
+    "associated_with",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Acquired_Abnormality",
+     "complicates",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "manifestation_of",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "associated_with",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "complicates",
+     "Disorders"
+    ],
+    [
+     "manifestation_of",
+     "Disorders"
+    ],
+    [
+     "associated_with",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 6.5,
+   "distract_max": 14,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-031",
+   "hop": 4,
+   "start": "Food",
+   "start_id": 54,
+   "rel_seq": [
+    "causes",
+    "precedes",
+    "occurs_in",
+    "treats"
+   ],
+   "answer": "Patient_or_Disabled_Group",
+   "answer_id": 106,
+   "answer_type": "Living_Beings",
+   "gt_path": [
+    [
+     "Food",
+     "causes",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "precedes",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "occurs_in",
+     "Professional_or_Occupational_Group"
+    ],
+    [
+     "Professional_or_Occupational_Group",
+     "treats",
+     "Patient_or_Disabled_Group"
+    ]
+   ],
+   "type_seq": [
+    [
+     "causes",
+     "Disorders"
+    ],
+    [
+     "precedes",
+     "Disorders"
+    ],
+    [
+     "occurs_in",
+     "Living_Beings"
+    ],
+    [
+     "treats",
+     "Living_Beings"
+    ]
+   ],
+   "distract_avg": 6.75,
+   "distract_max": 10,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-032",
+   "hop": 4,
+   "start": "Professional_Society",
+   "start_id": 113,
+   "rel_seq": [
+    "isa",
+    "carries_out",
+    "analyzes",
+    "conceptual_part_of"
+   ],
+   "answer": "Body_System",
+   "answer_id": 23,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Professional_Society",
+     "isa",
+     "Organization"
+    ],
+    [
+     "Organization",
+     "carries_out",
+     "Diagnostic_Procedure"
+    ],
+    [
+     "Diagnostic_Procedure",
+     "analyzes",
+     "Body_Substance"
+    ],
+    [
+     "Body_Substance",
+     "conceptual_part_of",
+     "Body_System"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Organizations"
+    ],
+    [
+     "carries_out",
+     "Procedures"
+    ],
+    [
+     "analyzes",
+     "Anatomy"
+    ],
+    [
+     "conceptual_part_of",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 9.75,
+   "distract_max": 26,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-033",
+   "hop": 4,
+   "start": "Governmental_or_Regulatory_Activity",
+   "start_id": 61,
+   "rel_seq": [
+    "method_of",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Governmental_or_Regulatory_Activity",
+     "method_of",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "method_of",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.75,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h4-034",
+   "hop": 4,
+   "start": "Pharmacologic_Substance",
+   "start_id": 107,
+   "rel_seq": [
+    "ingredient_of",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Pharmacologic_Substance",
+     "ingredient_of",
+     "Clinical_Drug"
+    ],
+    [
+     "Clinical_Drug",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-035",
+   "hop": 4,
+   "start": "Biomedical_or_Dental_Material",
+   "start_id": 17,
+   "rel_seq": [
+    "affects",
+    "conceptual_part_of",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Behavior",
+   "answer_id": 13,
+   "answer_type": "Activities_&_Behaviors",
+   "gt_path": [
+    [
+     "Biomedical_or_Dental_Material",
+     "affects",
+     "Organ_or_Tissue_Function"
+    ],
+    [
+     "Organ_or_Tissue_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ],
+    [
+     "Temporal_Concept",
+     "isa",
+     "Idea_or_Concept"
+    ],
+    [
+     "Idea_or_Concept",
+     "conceptual_part_of",
+     "Behavior"
+    ]
+   ],
+   "type_seq": [
+    [
+     "affects",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ]
+   ],
+   "distract_avg": 5.0,
+   "distract_max": 15,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-036",
+   "hop": 4,
+   "start": "Human",
+   "start_id": 68,
+   "rel_seq": [
+    "exhibits",
+    "affects",
+    "degree_of",
+    "occurs_in"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Human",
+     "exhibits",
+     "Behavior"
+    ],
+    [
+     "Behavior",
+     "affects",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "degree_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "occurs_in",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "exhibits",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "affects",
+     "Physiology"
+    ],
+    [
+     "degree_of",
+     "Physiology"
+    ],
+    [
+     "occurs_in",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 2.5,
+   "distract_max": 4,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-037",
+   "hop": 4,
+   "start": "Mammal",
+   "start_id": 83,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Mammal",
+     "isa",
+     "Animal"
+    ],
+    [
+     "Animal",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Living_Beings"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.75,
+   "distract_max": 5,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-038",
+   "hop": 4,
+   "start": "Organophosphorus_Compound",
+   "start_id": 104,
+   "rel_seq": [
+    "affects",
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Organophosphorus_Compound",
+     "affects",
+     "Biologic_Function"
+    ],
+    [
+     "Biologic_Function",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "affects",
+     "Phenomena"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 5.25,
+   "distract_max": 15,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h4-039",
+   "hop": 4,
+   "start": "Group_Attribute",
+   "start_id": 63,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Group_Attribute",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.5,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-000",
+   "hop": 5,
+   "start": "Organism_Function",
+   "start_id": 102,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Organism_Function",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-001",
+   "hop": 5,
+   "start": "Entity",
+   "start_id": 46,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Entity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-002",
+   "hop": 5,
+   "start": "Genetic_Function",
+   "start_id": 59,
+   "rel_seq": [
+    "isa",
+    "co-occurs_with",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Genetic_Function",
+     "isa",
+     "Molecular_Function"
+    ],
+    [
+     "Molecular_Function",
+     "co-occurs_with",
+     "Genetic_Function"
+    ],
+    [
+     "Genetic_Function",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Physiology"
+    ],
+    [
+     "co-occurs_with",
+     "Physiology"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.8,
+   "distract_max": 6,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-003",
+   "hop": 5,
+   "start": "Embryonic_Structure",
+   "start_id": 45,
+   "rel_seq": [
+    "isa",
+    "location_of",
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Embryonic_Structure",
+     "isa",
+     "Anatomical_Structure"
+    ],
+    [
+     "Anatomical_Structure",
+     "location_of",
+     "Bacterium"
+    ],
+    [
+     "Bacterium",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Anatomy"
+    ],
+    [
+     "location_of",
+     "Living_Beings"
+    ],
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.6,
+   "distract_max": 4,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-004",
+   "hop": 5,
+   "start": "Molecular_Sequence",
+   "start_id": 90,
+   "rel_seq": [
+    "result_of",
+    "result_of",
+    "conceptual_part_of",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Molecular_Sequence",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "result_of",
+     "Organ_or_Tissue_Function"
+    ],
+    [
+     "Organ_or_Tissue_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ],
+    [
+     "Temporal_Concept",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 6.0,
+   "distract_max": 25,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-005",
+   "hop": 5,
+   "start": "Spatial_Concept",
+   "start_id": 126,
+   "rel_seq": [
+    "result_of",
+    "issue_in",
+    "conceptual_part_of",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Spatial_Concept",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-006",
+   "hop": 5,
+   "start": "Body_System",
+   "start_id": 23,
+   "rel_seq": [
+    "conceptual_part_of",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Body_System",
+     "conceptual_part_of",
+     "Body_System"
+    ],
+    [
+     "Body_System",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "conceptual_part_of",
+     "Anatomy"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-007",
+   "hop": 5,
+   "start": "Classification",
+   "start_id": 33,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Classification",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.6,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-008",
+   "hop": 5,
+   "start": "Amino_Acid_Sequence",
+   "start_id": 5,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Amino_Acid_Sequence",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-009",
+   "hop": 5,
+   "start": "Educational_Activity",
+   "start_id": 42,
+   "rel_seq": [
+    "associated_with",
+    "manifestation_of",
+    "produces",
+    "adjacent_to",
+    "consists_of"
+   ],
+   "answer": "Tissue",
+   "answer_id": 131,
+   "answer_type": "Anatomy",
+   "gt_path": [
+    [
+     "Educational_Activity",
+     "associated_with",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "manifestation_of",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "produces",
+     "Tissue"
+    ],
+    [
+     "Tissue",
+     "adjacent_to",
+     "Tissue"
+    ],
+    [
+     "Tissue",
+     "consists_of",
+     "Tissue"
+    ]
+   ],
+   "type_seq": [
+    [
+     "associated_with",
+     "Disorders"
+    ],
+    [
+     "manifestation_of",
+     "Disorders"
+    ],
+    [
+     "produces",
+     "Anatomy"
+    ],
+    [
+     "adjacent_to",
+     "Anatomy"
+    ],
+    [
+     "consists_of",
+     "Anatomy"
+    ]
+   ],
+   "distract_avg": 7.2,
+   "distract_max": 14,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-010",
+   "hop": 5,
+   "start": "Fish",
+   "start_id": 53,
+   "rel_seq": [
+    "interacts_with",
+    "exhibits",
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Fish",
+     "interacts_with",
+     "Fish"
+    ],
+    [
+     "Fish",
+     "exhibits",
+     "Behavior"
+    ],
+    [
+     "Behavior",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "exhibits",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 3.0,
+   "distract_max": 6,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-011",
+   "hop": 5,
+   "start": "Acquired_Abnormality",
+   "start_id": 0,
+   "rel_seq": [
+    "affects",
+    "interacts_with",
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Acquired_Abnormality",
+     "affects",
+     "Alga"
+    ],
+    [
+     "Alga",
+     "interacts_with",
+     "Alga"
+    ],
+    [
+     "Alga",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "affects",
+     "Living_Beings"
+    ],
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 9.4,
+   "distract_max": 24,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-012",
+   "hop": 5,
+   "start": "Carbohydrate_Sequence",
+   "start_id": 25,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Carbohydrate_Sequence",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-013",
+   "hop": 5,
+   "start": "Drug_Delivery_Device",
+   "start_id": 41,
+   "rel_seq": [
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Drug_Delivery_Device",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-014",
+   "hop": 5,
+   "start": "Lipid",
+   "start_id": 81,
+   "rel_seq": [
+    "ingredient_of",
+    "causes",
+    "co-occurs_with",
+    "manifestation_of",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Lipid",
+     "ingredient_of",
+     "Clinical_Drug"
+    ],
+    [
+     "Clinical_Drug",
+     "causes",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "co-occurs_with",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "manifestation_of",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "causes",
+     "Disorders"
+    ],
+    [
+     "co-occurs_with",
+     "Disorders"
+    ],
+    [
+     "manifestation_of",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 5.8,
+   "distract_max": 14,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-015",
+   "hop": 5,
+   "start": "Mental_Process",
+   "start_id": 86,
+   "rel_seq": [
+    "result_of",
+    "process_of",
+    "affects",
+    "manifestation_of",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Mental_Process",
+     "result_of",
+     "Biologic_Function"
+    ],
+    [
+     "Biologic_Function",
+     "process_of",
+     "Biologic_Function"
+    ],
+    [
+     "Biologic_Function",
+     "affects",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "manifestation_of",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Phenomena"
+    ],
+    [
+     "process_of",
+     "Phenomena"
+    ],
+    [
+     "affects",
+     "Disorders"
+    ],
+    [
+     "manifestation_of",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 20.8,
+   "distract_max": 32,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-016",
+   "hop": 5,
+   "start": "Plant",
+   "start_id": 111,
+   "rel_seq": [
+    "isa",
+    "interacts_with",
+    "interacts_with",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Plant",
+     "isa",
+     "Organism"
+    ],
+    [
+     "Organism",
+     "interacts_with",
+     "Organism"
+    ],
+    [
+     "Organism",
+     "interacts_with",
+     "Organism"
+    ],
+    [
+     "Organism",
+     "isa",
+     "Physical_Object"
+    ],
+    [
+     "Physical_Object",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Living_Beings"
+    ],
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.6,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-017",
+   "hop": 5,
+   "start": "Social_Behavior",
+   "start_id": 125,
+   "rel_seq": [
+    "manifestation_of",
+    "degree_of",
+    "associated_with",
+    "process_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Temporal_Concept",
+   "answer_id": 129,
+   "answer_type": "Concepts_&_Ideas",
+   "gt_path": [
+    [
+     "Social_Behavior",
+     "manifestation_of",
+     "Mental_or_Behavioral_Dysfunction"
+    ],
+    [
+     "Mental_or_Behavioral_Dysfunction",
+     "degree_of",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "associated_with",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "process_of",
+     "Organ_or_Tissue_Function"
+    ],
+    [
+     "Organ_or_Tissue_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ]
+   ],
+   "type_seq": [
+    [
+     "manifestation_of",
+     "Disorders"
+    ],
+    [
+     "degree_of",
+     "Disorders"
+    ],
+    [
+     "associated_with",
+     "Disorders"
+    ],
+    [
+     "process_of",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ]
+   ],
+   "distract_avg": 9.2,
+   "distract_max": 32,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-018",
+   "hop": 5,
+   "start": "Geographic_Area",
+   "start_id": 60,
+   "rel_seq": [
+    "result_of",
+    "issue_in",
+    "conceptual_part_of",
+    "isa",
+    "isa"
+   ],
+   "answer": "Entity",
+   "answer_id": 46,
+   "answer_type": "Objects",
+   "gt_path": [
+    [
+     "Geographic_Area",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ]
+   ],
+   "type_seq": [
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-019",
+   "hop": 5,
+   "start": "Organophosphorus_Compound",
+   "start_id": 104,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Organophosphorus_Compound",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.2,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-020",
+   "hop": 5,
+   "start": "Organization",
+   "start_id": 103,
+   "rel_seq": [
+    "isa",
+    "isa",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Organization",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.4,
+   "distract_max": 2,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-021",
+   "hop": 5,
+   "start": "Professional_or_Occupational_Group",
+   "start_id": 114,
+   "rel_seq": [
+    "interacts_with",
+    "performs",
+    "uses",
+    "isa",
+    "ingredient_of"
+   ],
+   "answer": "Clinical_Drug",
+   "answer_id": 35,
+   "answer_type": "Chemicals_&_Drugs",
+   "gt_path": [
+    [
+     "Professional_or_Occupational_Group",
+     "interacts_with",
+     "Age_Group"
+    ],
+    [
+     "Age_Group",
+     "performs",
+     "Diagnostic_Procedure"
+    ],
+    [
+     "Diagnostic_Procedure",
+     "uses",
+     "Antibiotic"
+    ],
+    [
+     "Antibiotic",
+     "isa",
+     "Chemical"
+    ],
+    [
+     "Chemical",
+     "ingredient_of",
+     "Clinical_Drug"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "performs",
+     "Procedures"
+    ],
+    [
+     "uses",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "isa",
+     "Chemicals_&_Drugs"
+    ],
+    [
+     "ingredient_of",
+     "Chemicals_&_Drugs"
+    ]
+   ],
+   "distract_avg": 7.0,
+   "distract_max": 15,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-022",
+   "hop": 5,
+   "start": "Molecular_Biology_Research_Technique",
+   "start_id": 88,
+   "rel_seq": [
+    "associated_with",
+    "issue_in",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Molecular_Biology_Research_Technique",
+     "associated_with",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "associated_with",
+     "Disorders"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 3.4,
+   "distract_max": 10,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-023",
+   "hop": 5,
+   "start": "Indicator,_Reagent,_or_Diagnostic_Aid",
+   "start_id": 72,
+   "rel_seq": [
+    "affects",
+    "degree_of",
+    "affects",
+    "conceptual_part_of",
+    "result_of"
+   ],
+   "answer": "Mental_Process",
+   "answer_id": 86,
+   "answer_type": "Physiology",
+   "gt_path": [
+    [
+     "Indicator,_Reagent,_or_Diagnostic_Aid",
+     "affects",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "degree_of",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "affects",
+     "Organ_or_Tissue_Function"
+    ],
+    [
+     "Organ_or_Tissue_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ],
+    [
+     "Temporal_Concept",
+     "result_of",
+     "Mental_Process"
+    ]
+   ],
+   "type_seq": [
+    [
+     "affects",
+     "Disorders"
+    ],
+    [
+     "degree_of",
+     "Disorders"
+    ],
+    [
+     "affects",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ]
+   ],
+   "distract_avg": 11.0,
+   "distract_max": 32,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-024",
+   "hop": 5,
+   "start": "Phenomenon_or_Process",
+   "start_id": 108,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "isa",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Phenomenon_or_Process",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-025",
+   "hop": 5,
+   "start": "Reptile",
+   "start_id": 119,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Reptile",
+     "isa",
+     "Animal"
+    ],
+    [
+     "Animal",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Living_Beings"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.2,
+   "distract_max": 5,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-026",
+   "hop": 5,
+   "start": "Organization",
+   "start_id": 103,
+   "rel_seq": [
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Organization",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-027",
+   "hop": 5,
+   "start": "Occupational_Activity",
+   "start_id": 97,
+   "rel_seq": [
+    "issue_in",
+    "isa",
+    "conceptual_part_of",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Occupational_Activity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-028",
+   "hop": 5,
+   "start": "Family_Group",
+   "start_id": 51,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Family_Group",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.2,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-029",
+   "hop": 5,
+   "start": "Fish",
+   "start_id": 53,
+   "rel_seq": [
+    "interacts_with",
+    "interacts_with",
+    "issue_in",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Fish",
+     "interacts_with",
+     "Archaeon"
+    ],
+    [
+     "Archaeon",
+     "interacts_with",
+     "Archaeon"
+    ],
+    [
+     "Archaeon",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.4,
+   "distract_max": 6,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-030",
+   "hop": 5,
+   "start": "Activity",
+   "start_id": 1,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Activity",
+     "isa",
+     "Event"
+    ],
+    [
+     "Event",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-031",
+   "hop": 5,
+   "start": "Group_Attribute",
+   "start_id": 63,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "isa",
+    "conceptual_part_of",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Group_Attribute",
+     "isa",
+     "Conceptual_Entity"
+    ],
+    [
+     "Conceptual_Entity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.8,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-032",
+   "hop": 5,
+   "start": "Social_Behavior",
+   "start_id": 125,
+   "rel_seq": [
+    "conceptual_part_of",
+    "result_of",
+    "isa",
+    "conceptual_part_of",
+    "result_of"
+   ],
+   "answer": "Mental_Process",
+   "answer_id": 86,
+   "answer_type": "Physiology",
+   "gt_path": [
+    [
+     "Social_Behavior",
+     "conceptual_part_of",
+     "Social_Behavior"
+    ],
+    [
+     "Social_Behavior",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "isa",
+     "Organism_Function"
+    ],
+    [
+     "Organism_Function",
+     "conceptual_part_of",
+     "Temporal_Concept"
+    ],
+    [
+     "Temporal_Concept",
+     "result_of",
+     "Mental_Process"
+    ]
+   ],
+   "type_seq": [
+    [
+     "conceptual_part_of",
+     "Activities_&_Behaviors"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "isa",
+     "Physiology"
+    ],
+    [
+     "conceptual_part_of",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 6,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-033",
+   "hop": 5,
+   "start": "Health_Care_Activity",
+   "start_id": 65,
+   "rel_seq": [
+    "method_of",
+    "issue_in",
+    "conceptual_part_of",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Health_Care_Activity",
+     "method_of",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "method_of",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 1.6,
+   "distract_max": 2,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-034",
+   "hop": 5,
+   "start": "Virus",
+   "start_id": 133,
+   "rel_seq": [
+    "isa",
+    "issue_in",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Virus",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.0,
+   "distract_max": 3,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-035",
+   "hop": 5,
+   "start": "Indicator,_Reagent,_or_Diagnostic_Aid",
+   "start_id": 72,
+   "rel_seq": [
+    "affects",
+    "process_of",
+    "co-occurs_with",
+    "process_of",
+    "conceptually_related_to"
+   ],
+   "answer": "Experimental_Model_of_Disease",
+   "answer_id": 50,
+   "answer_type": "Disorders",
+   "gt_path": [
+    [
+     "Indicator,_Reagent,_or_Diagnostic_Aid",
+     "affects",
+     "Biologic_Function"
+    ],
+    [
+     "Biologic_Function",
+     "process_of",
+     "Cell_Function"
+    ],
+    [
+     "Cell_Function",
+     "co-occurs_with",
+     "Cell_Function"
+    ],
+    [
+     "Cell_Function",
+     "process_of",
+     "Disease_or_Syndrome"
+    ],
+    [
+     "Disease_or_Syndrome",
+     "conceptually_related_to",
+     "Experimental_Model_of_Disease"
+    ]
+   ],
+   "type_seq": [
+    [
+     "affects",
+     "Phenomena"
+    ],
+    [
+     "process_of",
+     "Physiology"
+    ],
+    [
+     "co-occurs_with",
+     "Physiology"
+    ],
+    [
+     "process_of",
+     "Disorders"
+    ],
+    [
+     "conceptually_related_to",
+     "Disorders"
+    ]
+   ],
+   "distract_avg": 16.8,
+   "distract_max": 32,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-036",
+   "hop": 5,
+   "start": "Antibiotic",
+   "start_id": 10,
+   "rel_seq": [
+    "disrupts",
+    "interconnects",
+    "result_of",
+    "occurs_in",
+    "result_of"
+   ],
+   "answer": "Mental_Process",
+   "answer_id": 86,
+   "answer_type": "Physiology",
+   "gt_path": [
+    [
+     "Antibiotic",
+     "disrupts",
+     "Body_Part,_Organ,_or_Organ_Component"
+    ],
+    [
+     "Body_Part,_Organ,_or_Organ_Component",
+     "interconnects",
+     "Body_Space_or_Junction"
+    ],
+    [
+     "Body_Space_or_Junction",
+     "result_of",
+     "Mental_Process"
+    ],
+    [
+     "Mental_Process",
+     "occurs_in",
+     "Temporal_Concept"
+    ],
+    [
+     "Temporal_Concept",
+     "result_of",
+     "Mental_Process"
+    ]
+   ],
+   "type_seq": [
+    [
+     "disrupts",
+     "Anatomy"
+    ],
+    [
+     "interconnects",
+     "Anatomy"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ],
+    [
+     "occurs_in",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "result_of",
+     "Physiology"
+    ]
+   ],
+   "distract_avg": 3.6,
+   "distract_max": 14,
+   "split_comp": "heldout"
+  },
+  {
+   "qid": "umls-h5-037",
+   "hop": 5,
+   "start": "Population_Group",
+   "start_id": 112,
+   "rel_seq": [
+    "interacts_with",
+    "produces",
+    "issue_in",
+    "issue_in",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Population_Group",
+     "interacts_with",
+     "Age_Group"
+    ],
+    [
+     "Age_Group",
+     "produces",
+     "Classification"
+    ],
+    [
+     "Classification",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "issue_in",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "produces",
+     "Concepts_&_Ideas"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 3.6,
+   "distract_max": 8,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-038",
+   "hop": 5,
+   "start": "Archaeon",
+   "start_id": 11,
+   "rel_seq": [
+    "interacts_with",
+    "isa",
+    "issue_in",
+    "isa",
+    "conceptual_part_of"
+   ],
+   "answer": "Occupation_or_Discipline",
+   "answer_id": 96,
+   "answer_type": "Occupations",
+   "gt_path": [
+    [
+     "Archaeon",
+     "interacts_with",
+     "Archaeon"
+    ],
+    [
+     "Archaeon",
+     "isa",
+     "Entity"
+    ],
+    [
+     "Entity",
+     "issue_in",
+     "Biomedical_Occupation_or_Discipline"
+    ],
+    [
+     "Biomedical_Occupation_or_Discipline",
+     "isa",
+     "Occupation_or_Discipline"
+    ],
+    [
+     "Occupation_or_Discipline",
+     "conceptual_part_of",
+     "Occupation_or_Discipline"
+    ]
+   ],
+   "type_seq": [
+    [
+     "interacts_with",
+     "Living_Beings"
+    ],
+    [
+     "isa",
+     "Objects"
+    ],
+    [
+     "issue_in",
+     "Occupations"
+    ],
+    [
+     "isa",
+     "Occupations"
+    ],
+    [
+     "conceptual_part_of",
+     "Occupations"
+    ]
+   ],
+   "distract_avg": 2.2,
+   "distract_max": 3,
+   "split_comp": "seen"
+  },
+  {
+   "qid": "umls-h5-039",
+   "hop": 5,
+   "start": "Vitamin",
+   "start_id": 134,
+   "rel_seq": [
+    "complicates",
+    "location_of",
+    "result_of",
+    "method_of",
+    "precedes"
+   ],
+   "answer": "Therapeutic_or_Preventive_Procedure",
+   "answer_id": 130,
+   "answer_type": "Procedures",
+   "gt_path": [
+    [
+     "Vitamin",
+     "complicates",
+     "Acquired_Abnormality"
+    ],
+    [
+     "Acquired_Abnormality",
+     "location_of",
+     "Cell_or_Molecular_Dysfunction"
+    ],
+    [
+     "Cell_or_Molecular_Dysfunction",
+     "result_of",
+     "Diagnostic_Procedure"
+    ],
+    [
+     "Diagnostic_Procedure",
+     "method_of",
+     "Diagnostic_Procedure"
+    ],
+    [
+     "Diagnostic_Procedure",
+     "precedes",
+     "Therapeutic_or_Preventive_Procedure"
+    ]
+   ],
+   "type_seq": [
+    [
+     "complicates",
+     "Disorders"
+    ],
+    [
+     "location_of",
+     "Disorders"
+    ],
+    [
+     "result_of",
+     "Procedures"
+    ],
+    [
+     "method_of",
+     "Procedures"
+    ],
+    [
+     "precedes",
+     "Procedures"
+    ]
+   ],
+   "distract_avg": 12.2,
+   "distract_max": 29,
+   "split_comp": "heldout"
+  }
+ ]
+}
